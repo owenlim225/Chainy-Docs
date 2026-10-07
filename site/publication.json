@@ -1,6 +1,6 @@
 {
   "revision": "af11d22cf6494c6ba9a08ac5315a9333ee0f5953",
-  "builtAt": "2026-10-07T23:14:49.362Z",
+  "builtAt": "2026-10-07T23:23:24.658Z",
   "documents": [
     {
       "file": ".agents/skills/android-game-performance/SKILL.md",
@@ -131,12 +131,20 @@
       "url": "content/docs/kanban-plan-draft.html"
     },
     {
+      "file": "docs/learning-foundations.md",
+      "url": "content/docs/learning-foundations.html"
+    },
+    {
       "file": "docs/manuscript-evidence-map.md",
       "url": "content/docs/manuscript-evidence-map.html"
     },
     {
       "file": "docs/manuscript-working-draft.md",
       "url": "content/docs/manuscript-working-draft.html"
+    },
+    {
+      "file": "docs/media/brand/README.md",
+      "url": "content/docs/media/brand/readme.html"
     },
     {
       "file": "docs/media/gdd/README.md",
@@ -198,5 +206,6 @@
       "file": "tools/kanban-sync/README.md",
       "url": "content/tools/kanban-sync/readme.html"
     }
-  ]
+  ],
+  "sourceState": "Workspace snapshot including uncommitted documentation and branding updates"
 }

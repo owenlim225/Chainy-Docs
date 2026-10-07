@@ -1,4 +1,6 @@
-# Chainy Docs
+# Chainy: A 3D World Educational Game for learning emerging Technology (Blockchain & AI)
+
+![Chainy logo](site/brand/chainy-logo.png)
 
 Published project documentation for Chainy. This repository contains generated website output. Canonical documents and build tooling remain in the private Chainy management repository.
 

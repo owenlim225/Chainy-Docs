@@ -1,0 +1,37 @@
+[
+  {
+    "from": "docs/Hardware Flatform Feasibility.md",
+    "to": "docs/archive/source-material/Hardware Flatform Feasibility.md",
+    "sha256": "1B5081BC94433786A80CEFBBC060E5BC3F8172E6CDCFA2F3A96A5D779B84378D"
+  },
+  {
+    "from": "docs/Individual Project Systems Feasibility Milestone.md",
+    "to": "docs/archive/source-material/Individual Project Systems Feasibility Milestone.md",
+    "sha256": "7D65BF3BB330DF93E501019E0DBBDA20EF80D91B4D389667D292937020E179EC"
+  },
+  {
+    "from": "docs/issues/Game Performance Triage  Challenge.md",
+    "to": "docs/archive/source-material/Game Performance Triage  Challenge.md",
+    "sha256": "FC0F01CAB806784485F50AF0C193DC957DD7B6523E6B10E2D056610FD1954DFB"
+  },
+  {
+    "from": "docs/issues/kanban-scope-conflicts.md",
+    "to": "docs/archive/issues/kanban-scope-conflicts.md",
+    "sha256": "51D39CFC6C38BAD033D922F5372CE1335297A3231F0495F660A11EB19AFD6B00"
+  },
+  {
+    "from": "docs/Operating System and Game Performance Investigation.md",
+    "to": "docs/archive/source-material/Operating System and Game Performance Investigation.md",
+    "sha256": "6F669E876EFC175D966CA936F984B3F944F4640A3A12EBA39D9CFF3EE1501657"
+  },
+  {
+    "from": "docs/Problem Identification and Initial Project Planning.md",
+    "to": "docs/archive/source-material/Problem Identification and Initial Project Planning.md",
+    "sha256": "8B5569E0920FF6F01A946C58BFAEDEACBFA9863D00676115FF8501FDA2E163E2"
+  },
+  {
+    "from": "docs/proposal.md",
+    "to": "docs/archive/source-material/proposal.md",
+    "sha256": "D03B84FB5E3523DB28183BD10C9CA4049570CD33AC7846791282A288E2591F97"
+  }
+]

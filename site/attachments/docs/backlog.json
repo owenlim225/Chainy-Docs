@@ -1,0 +1,1053 @@
+{
+  "updated": "2026-10-05",
+  "repository": "Kamiyon-Studio/Chainy",
+  "projectUrl": "https://github.com/orgs/Kamiyon-Studio/projects/5",
+  "projectStatus": "Verified 26 items; name-based Lead, Support, Reviewer and Deliverable fields populated. Existing statuses preserved.",
+  "datePolicy": "Proposed recovery targets; November 21 defense is confirmed; capacity and rubric pending",
+  "tasks": [
+    {
+      "id": "CH-01",
+      "title": "Confirm defense rubric and team capacity",
+      "due": "2026-10-07",
+      "blockedBy": [],
+      "requirements": [
+        "CH-R12"
+      ],
+      "label": "question",
+      "description": "Record the school's definition of 60 percent, required manuscript/demo evidence, each member's weekly hours and relevant experience, named lead, and owner assignments. The game repository exists. Obtain the actual device inventory and remaining rubric meanings; use name-based team assignments. Do not treat unanswered questions as approved assumptions. User supplied a 32-point rubric with eight unnamed criteria; capture their actual meanings and distinguish scoring from 60 percent completion. Five team members have intermediate experience; 5–8 hours/day is an unverified provisional availability claim.",
+      "acceptance": "A rubric-to-evidence matrix and capacity table exist; adviser expectations and unresolved answers are explicit.",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/2",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "issueNumber": 2,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPFk",
+      "support": [
+        "Sean Matthew Narvaez"
+      ],
+      "reviewer": "Sean Matthew Narvaez",
+      "deliverable": "Decision log, available-hours record and school evidence checklist",
+      "estimatedOwnerHours": [
+        6,
+        10
+      ],
+      "trelloCardId": "6ac2f07b0a3c6d30b64c872a",
+      "trelloCardUrl": "https://trello.com/c/rEZKVtlb",
+      "trelloDue": "2026-10-07T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2816",
+      "trelloAcceptanceChecklistId": "6ac2f58b9d2e6f0daff673c6"
+    },
+    {
+      "id": "CH-02",
+      "title": "Freeze bounded mechanics and learning objectives",
+      "due": "2026-10-09",
+      "blockedBy": [
+        "CH-01"
+      ],
+      "requirements": [
+        "CH-R02",
+        "CH-R03",
+        "CH-R04",
+        "CH-R05",
+        "CH-R06",
+        "CH-R07",
+        "CH-R08"
+      ],
+      "label": "documentation",
+      "description": "Specify three levels and two themed worlds. Preserve free placement/configuration, node simulation and agent activity. Propose a small construction area/palette, three local nodes, one classifier and one agent route. Define the objectives, quiz mapping and success/failure rules for ages 13–17. Confirm no microphone/cloud features before defense.",
+      "acceptance": "A reviewer can trace each required concept to a playable action and assessment; quantity limits and deferred extras are explicit.",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/3",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "issueNumber": 3,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPFs",
+      "support": [
+        "Sean Matthew Narvaez",
+        "Luis Cabrido III",
+        "Miguel De Leon"
+      ],
+      "reviewer": "Christian Jude Villaber",
+      "deliverable": "Reviewed GDD with level rules and content caps",
+      "estimatedOwnerHours": [
+        12,
+        20
+      ],
+      "trelloCardId": "6ac2f14e70cf9dd3bcdf1b63",
+      "trelloCardUrl": "https://trello.com/c/nMx0ddAa",
+      "trelloDue": "2026-10-09T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2816",
+      "trelloAcceptanceChecklistId": "6ac2f5913c794c019ebcfe6d"
+    },
+    {
+      "id": "CH-03",
+      "title": "Link game repository and produce first Android APK",
+      "due": "2026-10-09",
+      "blockedBy": [],
+      "requirements": [
+        "CH-R01",
+        "CH-R09"
+      ],
+      "label": "enhancement",
+      "description": "Use a separate game repository; record its URL here. Pin Unity version/render pipeline and build configuration. Install a minimal touch-controlled scene on an available Android device and record device/build details. Confirm an experienced technical owner.",
+      "acceptance": "APK installs and launches in airplane mode on the recorded device; repository/build instructions are reproducible.",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/4",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "issueNumber": 4,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPF4",
+      "support": [
+        "Miguel De Leon"
+      ],
+      "reviewer": "Sherwin Limosnero",
+      "deliverable": "Pinned build configuration, source link and device APK",
+      "estimatedOwnerHours": [
+        8,
+        16
+      ],
+      "trelloCardId": "6ac2f151a2b41173dd905985",
+      "trelloCardUrl": "https://trello.com/c/dYKxA9Nl",
+      "trelloDue": "2026-10-09T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2811",
+      "trelloAcceptanceChecklistId": "6ac2f59619d1edf8706c94c5"
+    },
+    {
+      "id": "CH-04",
+      "title": "Validate SQLite and Android export integration",
+      "due": "2026-10-11",
+      "blockedBy": [
+        "CH-03"
+      ],
+      "requirements": [
+        "CH-R09",
+        "CH-R10",
+        "CH-R11"
+      ],
+      "label": "enhancement",
+      "description": "Time-box adapter selection. Validate actual Unity Android/IL2CPP compatibility, parameterized access, two local profiles, transactions, relaunch, schema versioning and a small file export via Android's document picker. Use synthetic records. Learner codes select local profiles, not authenticated accounts. Validate typo/new-profile and same-code-on-second-device behavior.",
+      "acceptance": "A physical device saves/reloads two isolated profiles and produces a readable offline export; unsupported adapter assumptions are resolved.",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/5",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "issueNumber": 5,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGA",
+      "support": [
+        "Miguel De Leon"
+      ],
+      "reviewer": "Sherwin Limosnero",
+      "deliverable": "SQLite adapter spike, schema and export proof",
+      "estimatedOwnerHours": [
+        12,
+        24
+      ],
+      "trelloCardId": "6ac2f15317cff65d8106a62f",
+      "trelloCardUrl": "https://trello.com/c/pcabLqmb",
+      "trelloDue": "2026-10-11T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2811",
+      "trelloAcceptanceChecklistId": "6ac2f59b6447c0ea576e1295"
+    },
+    {
+      "id": "CH-05",
+      "title": "Build shared exploration and free construction loop",
+      "due": "2026-10-16",
+      "blockedBy": [
+        "CH-02",
+        "CH-03"
+      ],
+      "requirements": [
+        "CH-R01",
+        "CH-R02"
+      ],
+      "label": "enhancement",
+      "description": "Implement touch exploration, interact prompt, small component palette, free placement/connection/configuration within agreed limits, delete/reset, and useful invalid-layout feedback. Use placeholder assets and preserve freedom to make multiple solutions.",
+      "acceptance": "At least two different valid player-built arrangements work on Android; invalid links, cap reached, reset and replay are demonstrated.",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/6",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "issueNumber": 6,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGI",
+      "support": [
+        "Luis Cabrido III",
+        "Miguel De Leon"
+      ],
+      "reviewer": "Sherwin Limosnero",
+      "deliverable": "Free-placement construction scene and rule checks",
+      "estimatedOwnerHours": [
+        28,
+        48
+      ],
+      "trelloCardId": "6ac2f15699277005520fa168",
+      "trelloCardUrl": "https://trello.com/c/qQjtBoC8",
+      "trelloDue": "2026-10-16T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2811",
+      "trelloAcceptanceChecklistId": "6ac2f59fb7b6e2c37bbec4ef"
+    },
+    {
+      "id": "CH-06",
+      "title": "Deliver level 1 ordering vertical slice",
+      "due": "2026-10-18",
+      "blockedBy": [
+        "CH-04",
+        "CH-05",
+        "CH-26"
+      ],
+      "requirements": [
+        "CH-R03",
+        "CH-R08",
+        "CH-R09"
+      ],
+      "label": "enhancement",
+      "description": "Connect an exploration mission to record creation/linking and transaction ordering with a documented rule. Include tutorial, short quiz, badge/progress save and retry.",
+      "acceptance": "One complete learn-build-validate-quiz-save-relaunch loop works offline on the recorded device.",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/7",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "issueNumber": 7,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGM",
+      "support": [
+        "Miguel De Leon",
+        "Sean Matthew Narvaez"
+      ],
+      "reviewer": "Sherwin Limosnero",
+      "deliverable": "Level 1 playable loop with saved checkpoint",
+      "estimatedOwnerHours": [
+        16,
+        28
+      ],
+      "trelloCardId": "6ac2f159aaf207eeb8ccb21d",
+      "trelloCardUrl": "https://trello.com/c/Ti3hDBwe",
+      "trelloDue": "2026-10-18T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2811",
+      "trelloAcceptanceChecklistId": "6ac2f5a4767a13bb1843d6ad"
+    },
+    {
+      "id": "CH-07",
+      "title": "Deliver tamper detection and three-node simulation",
+      "due": "2026-10-25",
+      "blockedBy": [
+        "CH-06"
+      ],
+      "requirements": [
+        "CH-R04",
+        "CH-R05"
+      ],
+      "label": "enhancement",
+      "description": "Implement level 2 with a trusted/reference state, altered records, broken-link feedback and three logical replicas on one device. Define the simplified agreement/recovery rule and educational limitations. No sockets or public blockchain.",
+      "acceptance": "Valid and invalid records, node disagreement, reconciliation and explanation of limitations are reproducible in a playable mission.",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/8",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "issueNumber": 8,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGQ",
+      "support": [
+        "Sherwin Limosnero",
+        "Luis Cabrido III"
+      ],
+      "reviewer": "Sean Matthew Narvaez",
+      "deliverable": "Tamper and three-replica mission with explained limits",
+      "estimatedOwnerHours": [
+        24,
+        40
+      ],
+      "trelloCardId": "6ac2f15b62aba0d03efaf0f4",
+      "trelloCardUrl": "https://trello.com/c/fDoP9da2",
+      "trelloDue": "2026-10-25T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2811",
+      "trelloAcceptanceChecklistId": "6ac2f5a96b076f3cce20f1d1"
+    },
+    {
+      "id": "CH-08",
+      "title": "Prototype example-trained local classifier",
+      "due": "2026-10-18",
+      "blockedBy": [
+        "CH-02",
+        "CH-03"
+      ],
+      "requirements": [
+        "CH-R06"
+      ],
+      "label": "enhancement",
+      "description": "Implement a small C# nearest-centroid classifier over visible numeric features of fictional objects. Let labeled examples update prototypes; evaluate distinct held-out objects and show errors. Define ties, missing-class examples and reset. Do not add cloud AI or computer vision.",
+      "acceptance": "Changing training examples changes at least one held-out prediction in a controlled example; error feedback, deterministic tie behavior and reset are verified.",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/9",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "issueNumber": 9,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGU",
+      "support": [
+        "Sean Matthew Narvaez"
+      ],
+      "reviewer": "Christian Jude Villaber",
+      "deliverable": "Example-trained classifier with held-out test cases",
+      "estimatedOwnerHours": [
+        16,
+        28
+      ],
+      "trelloCardId": "6ac2f15dac9f9c47e6af9b8b",
+      "trelloCardUrl": "https://trello.com/c/nQtPyUF7",
+      "trelloDue": "2026-10-18T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2816",
+      "trelloAcceptanceChecklistId": "6ac2f5af24df354a10218f08"
+    },
+    {
+      "id": "CH-09",
+      "title": "Integrate AI level and short agent challenge",
+      "due": "2026-11-01",
+      "blockedBy": [
+        "CH-05",
+        "CH-08"
+      ],
+      "requirements": [
+        "CH-R06",
+        "CH-R07",
+        "CH-R08"
+      ],
+      "label": "enhancement",
+      "description": "Build level 3 around examples, classification, error inspection and quizzes. Add one observe-decide-act delivery route with a visible learner-configurable policy. Distinguish the classifier from the rule-driven agent.",
+      "acceptance": "Learner trains/tests, explains a wrong output, changes a route policy, completes the mission and saves progress offline.",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/10",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "issueNumber": 10,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGY",
+      "support": [
+        "Christian Jude Villaber",
+        "Miguel De Leon"
+      ],
+      "reviewer": "Sean Matthew Narvaez",
+      "deliverable": "AI level and capped agent mission",
+      "estimatedOwnerHours": [
+        20,
+        36
+      ],
+      "trelloCardId": "6ac2f16020008877d34b9d43",
+      "trelloCardUrl": "https://trello.com/c/i820wvBA",
+      "trelloDue": "2026-11-01T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2816",
+      "trelloAcceptanceChecklistId": "6ac2f5b5540f43211d2588d0"
+    },
+    {
+      "id": "CH-10",
+      "title": "Produce reusable teen-oriented art and interface",
+      "due": "2026-10-25",
+      "blockedBy": [
+        "CH-02",
+        "CH-03"
+      ],
+      "requirements": [
+        "CH-R01",
+        "CH-R08"
+      ],
+      "label": "enhancement",
+      "description": "Use reusable/licensed low-poly assets and a small coherent kit. Adapt language and presentation for teenagers. Preserve readability, touch usability and visual feedback without full bespoke worlds or a currency economy. Record asset licenses.",
+      "acceptance": "Reusable environment/UI kit supports all three levels on the test device; license inventory and device readability review are recorded.",
+      "owner": "Luis Cabrido III",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/11",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "issueNumber": 11,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGc",
+      "support": [
+        "Miguel De Leon"
+      ],
+      "reviewer": "Sherwin Limosnero",
+      "deliverable": "Reusable asset kit, mobile imports and license ledger",
+      "estimatedOwnerHours": [
+        30,
+        50
+      ],
+      "trelloCardId": "6ac2f16271841398664b1351",
+      "trelloCardUrl": "https://trello.com/c/plY7Kh4g",
+      "trelloDue": "2026-10-25T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2813",
+      "trelloAcceptanceChecklistId": "6ac2f5b9193303b6965855ea"
+    },
+    {
+      "id": "CH-11",
+      "title": "Implement teacher export and duplicate-safe aggregation",
+      "due": "2026-10-25",
+      "blockedBy": [
+        "CH-04"
+      ],
+      "requirements": [
+        "CH-R10"
+      ],
+      "label": "enhancement",
+      "description": "Export versioned pseudonymous attempt records with immutable event IDs, counts and a manifest. Create a small importer and CSV summary. Validate transfer using the agreed staff workflow, initially with synthetic data. Preserve originals and quarantine conflicting duplicate IDs. Sherwin owns the external importer; Christian supplies the device export/storage contract and Miguel the export UI. Keep sample data synthetic until the protocol is ready.",
+      "acceptance": "Export/import and repeated import produce identical unique attempt totals; interrupted transfer, malformed input and missing destination are recoverable.",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/12",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "issueNumber": 12,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGg",
+      "support": [
+        "Christian Jude Villaber",
+        "Sean Matthew Narvaez"
+      ],
+      "reviewer": "Christian Jude Villaber",
+      "deliverable": "Staff importer and versioned evidence package contract",
+      "estimatedOwnerHours": [
+        14,
+        24
+      ],
+      "trelloCardId": "6ac2f1653ef86b1c9b6fecc3",
+      "trelloCardUrl": "https://trello.com/c/yhDUD6an",
+      "trelloDue": "2026-10-25T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2816",
+      "trelloAcceptanceChecklistId": "6ac2f5c01821516a4d2b4353"
+    },
+    {
+      "id": "CH-12",
+      "title": "Approve pilot protocol and evidence handling",
+      "due": "2026-10-18",
+      "blockedBy": [
+        "CH-01",
+        "CH-02",
+        "CH-23",
+        "CH-24"
+      ],
+      "requirements": [
+        "CH-R08",
+        "CH-R10",
+        "CH-R12"
+      ],
+      "label": "documentation",
+      "description": "Research lead confirms research questions, instruments, participant/site arrangements, applicable assent/guardian process, sample rationale, teacher custodian, identity handling, transfer destination, retention and deletion. Do not collect real learner data before required arrangements.",
+      "acceptance": "Written approved protocol or an explicit blocked status; usability and learning outcomes are distinguished and instruments map to objectives.",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/13",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "issueNumber": 13,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGo",
+      "support": [
+        "Sherwin Limosnero"
+      ],
+      "reviewer": "Sherwin Limosnero",
+      "deliverable": "Reviewed protocol, instruments and data-handling agreement",
+      "estimatedOwnerHours": [
+        12,
+        20
+      ],
+      "trelloCardId": "6ac2f1676e2b9ad82ab14df0",
+      "trelloCardUrl": "https://trello.com/c/E8OG4pWr",
+      "trelloDue": "2026-10-18T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2815",
+      "trelloAcceptanceChecklistId": "6ac2f5c5216abf4221cd1949"
+    },
+    {
+      "id": "CH-13",
+      "title": "Integrate three levels and freeze new features",
+      "due": "2026-11-06",
+      "blockedBy": [
+        "CH-07",
+        "CH-09",
+        "CH-10",
+        "CH-11",
+        "CH-26"
+      ],
+      "requirements": [
+        "CH-R01",
+        "CH-R02",
+        "CH-R03",
+        "CH-R04",
+        "CH-R05",
+        "CH-R06",
+        "CH-R07",
+        "CH-R08",
+        "CH-R09",
+        "CH-R10"
+      ],
+      "label": "enhancement",
+      "description": "Integrate bounded versions of every required mechanic, navigation, badges, profile persistence and teacher export. Record the build and known gaps. Stop discretionary feature additions after this checkpoint.",
+      "acceptance": "All three levels run end-to-end in one Android build; integration smoke checks and requirement gaps are recorded.",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/14",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "issueNumber": 14,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGs",
+      "support": [
+        "Sherwin Limosnero",
+        "Luis Cabrido III",
+        "Miguel De Leon"
+      ],
+      "reviewer": "Sherwin Limosnero",
+      "deliverable": "Integrated APK with all core mechanics",
+      "estimatedOwnerHours": [
+        16,
+        28
+      ],
+      "trelloCardId": "6ac2f16af01f9e9e21d38abf",
+      "trelloCardUrl": "https://trello.com/c/4tmlDh6Z",
+      "trelloDue": "2026-11-06T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2811",
+      "trelloAcceptanceChecklistId": "6ac2f5c976aa360ceeb6dafb"
+    },
+    {
+      "id": "CH-14",
+      "title": "Verify pilot-ready build and update recovery",
+      "due": "2026-11-07",
+      "blockedBy": [
+        "CH-13"
+      ],
+      "requirements": [
+        "CH-R01",
+        "CH-R09",
+        "CH-R10",
+        "CH-R11"
+      ],
+      "label": "enhancement",
+      "description": "Verify offline launch, suspend/resume, save integrity, shared profiles, teacher export, low-storage/failed-export recovery and signed update migration. Profile representative/worst scenes. Use a proposed 30 FPS target pending actual device/rubric agreement. Start device checks on every earlier build. Complete the integrated pilot-readiness check by November 7 so pilot sessions can run November 8–13; continue regression/performance work through November 12. This short final window depends on earlier incremental tests. Miguel executes the documented test matrix; Christian reviews results and owns technical fixes. Measure the proposed 4 GB ARM64 device class; no minimum-performance claim without records.",
+      "acceptance": "Device/build-specific results show pass/fail; corrupt or lost data is not silently accepted; critical defects have owners and fixes.",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/15",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "issueNumber": 15,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGw",
+      "support": [
+        "Christian Jude Villaber",
+        "Luis Cabrido III"
+      ],
+      "reviewer": "Christian Jude Villaber",
+      "deliverable": "Recorded device test matrix and recovery evidence",
+      "estimatedOwnerHours": [
+        12,
+        20
+      ],
+      "trelloCardId": "6ac2f16c880255b9dda6c985",
+      "trelloCardUrl": "https://trello.com/c/QJGNcQSA",
+      "trelloDue": "2026-11-07T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2812",
+      "trelloAcceptanceChecklistId": "6ac2f5cf8a8f582c0fd0f18c"
+    },
+    {
+      "id": "CH-15",
+      "title": "Run approved pilot and collect required pre-final evidence",
+      "due": "2026-11-13",
+      "blockedBy": [
+        "CH-12",
+        "CH-14"
+      ],
+      "requirements": [
+        "CH-R08",
+        "CH-R10",
+        "CH-R12"
+      ],
+      "label": "documentation",
+      "description": "Pre-final requires pilot-area evidence and completed manuscript chapters. Run the approved pilot November 8–13 only after the device readiness check and site/protocol arrangements. Confirm whether preliminary or full learner evaluation is required. Aggregate actual evidence and limitations. Synthetic records cannot substitute for required pilot evidence. If access or required evidence is missing, escalate the defense risk rather than treating a gap report as completion.",
+      "acceptance": "Required pilot-area evidence and actual evaluation results are traceable under the approved protocol; otherwise the card remains blocked with the unmet school requirement explicit.",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/16",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "issueNumber": 16,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPG0",
+      "support": [
+        "Sherwin Limosnero",
+        "Miguel De Leon"
+      ],
+      "reviewer": "Sherwin Limosnero",
+      "deliverable": "Approved pilot records and de-identified analysis inputs",
+      "estimatedOwnerHours": [
+        16,
+        28
+      ],
+      "trelloCardId": "6ac2f16e18c939c57ca9a8a9",
+      "trelloCardUrl": "https://trello.com/c/NNnRUHtE",
+      "trelloDue": "2026-11-13T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2815",
+      "trelloAcceptanceChecklistId": "6ac2f5d46e1148b8b0855f3f"
+    },
+    {
+      "id": "CH-16",
+      "title": "Finalize manuscript formatting and defense evidence",
+      "due": "2026-11-16",
+      "blockedBy": [
+        "CH-01",
+        "CH-22",
+        "CH-23",
+        "CH-25"
+      ],
+      "requirements": [
+        "CH-R12"
+      ],
+      "label": "documentation",
+      "description": "Consolidate completed Chapters I–V, front matter, references, appendices and the current rubric-to-evidence matrix. Writing and evidence preparation begin earlier in CH-22/23/25. Verify format and real build/results references; no invented results or completion percentage.",
+      "acceptance": "Current rubric matrix links to real artifacts and the defense build; unimplemented work and evaluation limitations are disclosed.",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/17",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "issueNumber": 17,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPG8",
+      "support": [
+        "Miguel De Leon"
+      ],
+      "reviewer": "Sherwin Limosnero",
+      "deliverable": "Complete formatted manuscript and evidence index",
+      "estimatedOwnerHours": [
+        12,
+        20
+      ],
+      "trelloCardId": "6ac2f17184d32358b1b17f0a",
+      "trelloCardUrl": "https://trello.com/c/A1GWJoq7",
+      "trelloDue": "2026-11-16T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2815",
+      "trelloAcceptanceChecklistId": "6ac2f5d9d76a6fec2e007d06"
+    },
+    {
+      "id": "CH-17",
+      "title": "Rehearse and package pre-final demonstration",
+      "due": "2026-11-20",
+      "blockedBy": [
+        "CH-14",
+        "CH-15",
+        "CH-16"
+      ],
+      "requirements": [
+        "CH-R12"
+      ],
+      "label": "documentation",
+      "description": "Rehearse offline on the actual defense device, including save/relaunch and evidence export. Prepare backup APK/device where available, source/build inventory, known limitations and recovery steps. November 21 is the defense; do not plan a last-minute new feature.",
+      "acceptance": "Full rehearsal and backup/recovery checks pass; evidence mapping supports the school's actual rubric. Unresolved criterion failure is escalated, not relabeled complete.",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/18",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "issueNumber": 18,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHI",
+      "support": [
+        "Christian Jude Villaber",
+        "Sean Matthew Narvaez",
+        "Luis Cabrido III",
+        "Miguel De Leon"
+      ],
+      "reviewer": "Sean Matthew Narvaez",
+      "deliverable": "Rehearsal record, demonstration APK and recovery kit",
+      "estimatedOwnerHours": [
+        8,
+        12
+      ],
+      "trelloCardId": "6ac2f173c0d4e5fb98b8ca14",
+      "trelloCardUrl": "https://trello.com/c/lCP9M7yx",
+      "trelloDue": "2026-11-20T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2816",
+      "trelloAcceptanceChecklistId": "6ac2f5df3ddad6300d80634e"
+    },
+    {
+      "id": "CH-18",
+      "title": "Resolve pre-final panel feedback and rebaseline",
+      "due": "2026-11-27",
+      "blockedBy": [
+        "CH-17"
+      ],
+      "requirements": [
+        "CH-R12"
+      ],
+      "label": "documentation",
+      "description": "After November 21, record actual panel decisions, required revisions and remaining scope. Replace provisional downstream targets with agreed dates. Do not assume approval or invent feedback.",
+      "acceptance": "Panel remarks are linked, decisions have owners, and remaining requirements map to revised tasks.",
+      "owner": "Sherwin Limosnero",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/19",
+      "issueNumber": 19,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHM",
+      "support": [
+        "Sean Matthew Narvaez"
+      ],
+      "reviewer": "Sean Matthew Narvaez",
+      "deliverable": "Panel-action log and revised scope/schedule",
+      "estimatedOwnerHours": [
+        6,
+        12
+      ],
+      "trelloCardId": "6ac2f176852898be8271a3cb",
+      "trelloCardUrl": "https://trello.com/c/aVENx2WX",
+      "trelloDue": "2026-11-27T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2816",
+      "trelloAcceptanceChecklistId": "6ac2f5e46421b9f8b6092852"
+    },
+    {
+      "id": "CH-19",
+      "title": "Complete approved learner evaluation and QA evidence",
+      "due": "2026-12-18",
+      "blockedBy": [
+        "CH-18",
+        "CH-12"
+      ],
+      "requirements": [
+        "CH-R08",
+        "CH-R10",
+        "CH-R12"
+      ],
+      "label": "documentation",
+      "description": "Complete the approved study and regression checks on the revised build. Analyze only actual collected evidence; disclose sample and design limitations. December 18 is a carried planning target, not a newly verified school deadline.",
+      "acceptance": "Approved study records, analysis, defect disposition and limitations support manuscript findings.",
+      "owner": "Sean Matthew Narvaez",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/20",
+      "issueNumber": 20,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHU",
+      "support": [
+        "Miguel De Leon",
+        "Christian Jude Villaber"
+      ],
+      "reviewer": "Sherwin Limosnero",
+      "deliverable": "Final approved study and QA evidence",
+      "estimatedOwnerHours": [
+        20,
+        36
+      ],
+      "trelloCardId": "6ac2f1782697e760c632883c",
+      "trelloCardUrl": "https://trello.com/c/6SRY6X6E",
+      "trelloDue": "2026-12-18T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2815",
+      "trelloAcceptanceChecklistId": "6ac2f5e993a544682fce13a6"
+    },
+    {
+      "id": "CH-20",
+      "title": "Finalize release package and manuscript",
+      "due": "2027-02-08",
+      "blockedBy": [
+        "CH-19"
+      ],
+      "requirements": [
+        "CH-R11",
+        "CH-R12"
+      ],
+      "label": "documentation",
+      "description": "Finish required revisions, reproducible signed APK, installation/update guidance, source/asset/license inventory, educator guide and manuscript. February 8 remains a proposed checkpoint from the earlier plan.",
+      "acceptance": "Final package has verified device smoke/update checks, complete documentation, known limitations and accountable signing/data custodians.",
+      "owner": "Christian Jude Villaber",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/21",
+      "issueNumber": 21,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHY",
+      "support": [
+        "Sean Matthew Narvaez",
+        "Luis Cabrido III",
+        "Miguel De Leon"
+      ],
+      "reviewer": "Sherwin Limosnero",
+      "deliverable": "Signed final package and release/handover documentation",
+      "estimatedOwnerHours": [
+        16,
+        28
+      ],
+      "trelloCardId": "6ac2f17b9857fd7e3770ab4b",
+      "trelloCardUrl": "https://trello.com/c/ofpdyMQt",
+      "trelloDue": "2027-02-08T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2811",
+      "trelloAcceptanceChecklistId": "6ac2f5ee71337b15e0cc5722"
+    },
+    {
+      "id": "CH-21",
+      "title": "Complete final defense and project handover",
+      "due": "2027-04-09",
+      "blockedBy": [
+        "CH-20"
+      ],
+      "requirements": [
+        "CH-R12"
+      ],
+      "label": "documentation",
+      "description": "Prepare the final defense, resolve panel actions, transfer source/build instructions and maintenance responsibilities, and execute the agreed research-data retention process. April 9 is a carried planning target within the official cycle, pending confirmation.",
+      "acceptance": "Actual final defense disposition and handover receipt are recorded; no unsupported claims of approval.",
+      "owner": "Sherwin Limosnero",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/22",
+      "issueNumber": 22,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHc",
+      "support": [
+        "Christian Jude Villaber",
+        "Sean Matthew Narvaez",
+        "Luis Cabrido III",
+        "Miguel De Leon"
+      ],
+      "reviewer": "Sean Matthew Narvaez",
+      "deliverable": "Final defense disposition and handover record",
+      "estimatedOwnerHours": [
+        8,
+        16
+      ],
+      "trelloCardId": "6ac2f17de48b22adfdc40a78",
+      "trelloCardUrl": "https://trello.com/c/hRD7V8oG",
+      "trelloDue": "2027-04-09T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2816",
+      "trelloAcceptanceChecklistId": "6ac2f5f4cbac9c069cba8e42"
+    },
+    {
+      "id": "CH-22",
+      "title": "Complete manuscript Chapters I and II with verified sources",
+      "due": "2026-10-14",
+      "blockedBy": [
+        "CH-02"
+      ],
+      "requirements": [
+        "CH-R12"
+      ],
+      "label": "documentation",
+      "owner": "Sean Matthew Narvaez",
+      "description": "Miguel supports formatting and reference management. Follow the official outline: project context, purpose, objectives, scope, significance; related studies, technical background and terms. Distinguish a literature-supported research gap from an unsupported novelty claim. Preserve the current ages 13–17 and combined 3D scope.",
+      "acceptance": "Complete reviewed Chapters I–II use traceable sources, consistent scope, citations and the school's formatting.",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/24",
+      "issueNumber": 24,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHg",
+      "support": [
+        "Miguel De Leon"
+      ],
+      "reviewer": "Sherwin Limosnero",
+      "deliverable": "Chapters I–II with verified references",
+      "estimatedOwnerHours": [
+        24,
+        40
+      ],
+      "trelloCardId": "6ac2f17fea7f1eaa0602b782",
+      "trelloCardUrl": "https://trello.com/c/fImPPlkj",
+      "trelloDue": "2026-10-14T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2815",
+      "trelloAcceptanceChecklistId": "6ac2f5f900ed40b67331152b"
+    },
+    {
+      "id": "CH-23",
+      "title": "Complete Chapter III and approved evaluation instruments",
+      "due": "2026-10-16",
+      "blockedBy": [
+        "CH-01",
+        "CH-02"
+      ],
+      "requirements": [
+        "CH-R08",
+        "CH-R10",
+        "CH-R12"
+      ],
+      "label": "documentation",
+      "owner": "Sean Matthew Narvaez",
+      "description": "Christian provides implementation/design evidence. Cover research and development methods, requirements, data, architecture, prototype, implementation plan, respondents/population, evaluation/statistical tools. Confirm what the supplied phrase ISO 2010 refers to; do not silently substitute a standard. Distinguish the official required outline from missing scoring criterion names.",
+      "acceptance": "Chapter III and instruments are internally consistent, adviser-reviewed as required, and directly support the pilot protocol.",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/25",
+      "issueNumber": 25,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHk",
+      "support": [
+        "Christian Jude Villaber"
+      ],
+      "reviewer": "Sherwin Limosnero",
+      "deliverable": "Chapter III, design figures and reviewed instruments",
+      "estimatedOwnerHours": [
+        20,
+        32
+      ],
+      "trelloCardId": "6ac2f182045b0af99f55e931",
+      "trelloCardUrl": "https://trello.com/c/j14zg3b8",
+      "trelloDue": "2026-10-16T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2815",
+      "trelloAcceptanceChecklistId": "6ac2f5fdf7572963914475ee"
+    },
+    {
+      "id": "CH-24",
+      "title": "Secure pilot-area documents and learner-session booking",
+      "due": "2026-10-12",
+      "blockedBy": [
+        "CH-01"
+      ],
+      "requirements": [
+        "CH-R10",
+        "CH-R12"
+      ],
+      "label": "documentation",
+      "owner": "Sherwin Limosnero",
+      "description": "Coordinate the actual Cryptita Plays contact and research lead. Obtain necessary permission/site evidence and applicable MOU/letters, device inventory, cohort/language details and a viable November 8–13 booking. Establish what pre-final pilot evidence the adviser accepts. Do not contact anyone automatically through this task or claim permission exists.",
+      "acceptance": "Site contact, required documents and appointment are confirmed, or the defense-critical access blocker is explicitly escalated.",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/26",
+      "issueNumber": 26,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHo",
+      "support": [
+        "Sean Matthew Narvaez"
+      ],
+      "reviewer": "Sean Matthew Narvaez",
+      "deliverable": "Actual pilot contact, site documents and booking record",
+      "estimatedOwnerHours": [
+        6,
+        10
+      ],
+      "trelloCardId": "6ac2f184f37ac46eec23a024",
+      "trelloCardUrl": "https://trello.com/c/l9MhfTtd",
+      "trelloDue": "2026-10-12T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2816",
+      "trelloAcceptanceChecklistId": "6ac2f60393e3b5433091e4a8"
+    },
+    {
+      "id": "CH-25",
+      "title": "Write results conclusions and assemble official appendices",
+      "due": "2026-11-16",
+      "blockedBy": [
+        "CH-15",
+        "CH-23"
+      ],
+      "requirements": [
+        "CH-R12"
+      ],
+      "label": "documentation",
+      "owner": "Sean Matthew Narvaez",
+      "description": "Miguel supports appendix assembly. Complete Chapters IV–V from actual preliminary/system evaluation results, with justified conclusions and limitations. Assemble front matter, references and appendices A–M; identify which certifications or documents must be issued externally. Empty placeholders and fabricated results do not satisfy manuscript completeness.",
+      "acceptance": "Each official section has reviewed content or a named adviser-approved exception; pilot evidence and appendix links are traceable.",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/27",
+      "issueNumber": 27,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHs",
+      "support": [
+        "Miguel De Leon",
+        "Christian Jude Villaber"
+      ],
+      "reviewer": "Sherwin Limosnero",
+      "deliverable": "Chapters IV–V, front matter and appendices A–M",
+      "estimatedOwnerHours": [
+        24,
+        40
+      ],
+      "trelloCardId": "6ac2f1860b82d597a183ad1f",
+      "trelloCardUrl": "https://trello.com/c/IC0D9iRx",
+      "trelloDue": "2026-11-16T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2815",
+      "trelloAcceptanceChecklistId": "6ac2f608f742a1de9ab23af6"
+    },
+    {
+      "id": "CH-26",
+      "title": "Implement readable menus HUD and teacher-facing screens",
+      "due": "2026-10-16",
+      "blockedBy": [
+        "CH-02",
+        "CH-03"
+      ],
+      "requirements": [
+        "CH-R01",
+        "CH-R08",
+        "CH-R09",
+        "CH-R10"
+      ],
+      "label": "enhancement",
+      "owner": "Miguel De Leon",
+      "description": "Coordinate with Christian on interfaces and Luis on reusable UI assets. Build menus, mission HUD, progress/profile selection and teacher export screen using the agreed data contracts. Adapt wording and readability for ages 13–17; use stubs until SQLite/export integration is ready.",
+      "acceptance": "Screens function on the test device with touch-sized controls and readable text; profile/export errors and cancellation have clear feedback.",
+      "ownerStatus": "Assigned in the project plan by name; no GitHub account required.",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/28",
+      "issueNumber": 28,
+      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPH0",
+      "support": [
+        "Luis Cabrido III",
+        "Christian Jude Villaber"
+      ],
+      "reviewer": "Sherwin Limosnero",
+      "deliverable": "Menus, profile entry, HUD and teacher-export UI",
+      "estimatedOwnerHours": [
+        24,
+        40
+      ],
+      "trelloCardId": "6ac2f1880636c325982fddb6",
+      "trelloCardUrl": "https://trello.com/c/bmixQhId",
+      "trelloDue": "2026-10-16T23:59:00+08:00",
+      "trelloLeadLabelId": "6ac2e696d340354c7f2e2812",
+      "trelloAcceptanceChecklistId": "6ac2f60d93e3b5433091f8ee"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Android foundation",
+      "number": 1,
+      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/1",
+      "target": "2026-10-11"
+    },
+    {
+      "title": "Playable vertical slice",
+      "number": 2,
+      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/2",
+      "target": "2026-10-18"
+    },
+    {
+      "title": "Core mechanics",
+      "number": 3,
+      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/3",
+      "target": "2026-11-01"
+    },
+    {
+      "title": "Integrated build",
+      "number": 4,
+      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/4",
+      "target": "2026-11-06"
+    },
+    {
+      "title": "Device and evaluation evidence",
+      "number": 5,
+      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/5",
+      "target": "2026-11-13"
+    },
+    {
+      "title": "Pre-final defense",
+      "number": 6,
+      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/6",
+      "target": "2026-11-21"
+    },
+    {
+      "title": "Post-defense revisions",
+      "number": 7,
+      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/7",
+      "target": "2026-11-27"
+    },
+    {
+      "title": "Evaluation completion",
+      "number": 8,
+      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/8",
+      "target": "2026-12-18"
+    },
+    {
+      "title": "Final package",
+      "number": 9,
+      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/9",
+      "target": "2027-02-08"
+    },
+    {
+      "title": "Final defense and handover",
+      "number": 10,
+      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/10",
+      "target": "2027-04-09"
+    }
+  ],
+  "gameRepositoryUrl": "https://github.com/Kamiyon-Studio/Chainy-Game",
+  "publicationStatus": "Verified 26 task issues, 10 milestones and populated private project. Skills and documents are published in draft PR #23.",
+  "projectId": "PVT_kwDOCyt3fs4BltkU",
+  "projectNumber": 5,
+  "assignmentPolicy": "Named Lead, Support and Reviewer fields are authoritative planning assignments. No fake GitHub accounts; Sherwin records status updates for members without accounts.",
+  "estimatePolicy": "Owner focus-hour ranges are rough planning estimates, not measured commitments; support/review effort and external waiting are additional. Re-estimate after the first device spike.",
+  "trelloBoardUrl": "https://trello.com/b/VPH0LHFN/capstone-t13",
+  "integrationStatus": "Live; verified 26 unique task/card mappings and bidirectional sync on October 5, 2026. Trello token expires November 4, 2026.",
+  "trelloAssignmentMode": "Lead-name labels only by user decision; actual member assignments deferred until teammates join.",
+  "trelloReferenceCard": {
+    "countsAsDeliveryTask": false,
+    "url": "https://trello.com/c/yqgqWk51",
+    "snapshotDate": "2026-10-05",
+    "title": "START HERE - Markdown References",
+    "markdownAttachments": 15
+  }
+}

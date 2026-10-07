@@ -1,0 +1,202 @@
+{
+  "revision": "d8b2b3b08784641834f5e8c6937f1352fa65a6db",
+  "builtAt": "2026-10-07T22:46:57.552Z",
+  "documents": [
+    {
+      "file": ".agents/skills/android-game-performance/SKILL.md",
+      "url": "content/agents/skills/android-game-performance/skill.html"
+    },
+    {
+      "file": ".agents/skills/capstone-scope-mentor/SKILL.md",
+      "url": "content/agents/skills/capstone-scope-mentor/skill.html"
+    },
+    {
+      "file": ".agents/skills/defense-readiness-mentor/SKILL.md",
+      "url": "content/agents/skills/defense-readiness-mentor/skill.html"
+    },
+    {
+      "file": ".agents/skills/dependency-aware-planner/SKILL.md",
+      "url": "content/agents/skills/dependency-aware-planner/skill.html"
+    },
+    {
+      "file": ".agents/skills/game-architecture-docs/SKILL.md",
+      "url": "content/agents/skills/game-architecture-docs/skill.html"
+    },
+    {
+      "file": ".agents/skills/game-asset-ui-pipeline/SKILL.md",
+      "url": "content/agents/skills/game-asset-ui-pipeline/skill.html"
+    },
+    {
+      "file": ".agents/skills/game-qa-playtesting/SKILL.md",
+      "url": "content/agents/skills/game-qa-playtesting/skill.html"
+    },
+    {
+      "file": ".agents/skills/game-release-handover/SKILL.md",
+      "url": "content/agents/skills/game-release-handover/skill.html"
+    },
+    {
+      "file": ".agents/skills/game-requirements-gdd/SKILL.md",
+      "url": "content/agents/skills/game-requirements-gdd/skill.html"
+    },
+    {
+      "file": ".agents/skills/learning-design-mentor/SKILL.md",
+      "url": "content/agents/skills/learning-design-mentor/skill.html"
+    },
+    {
+      "file": ".agents/skills/offline-evidence-mentor/SKILL.md",
+      "url": "content/agents/skills/offline-evidence-mentor/skill.html"
+    },
+    {
+      "file": ".agents/skills/simulation-accuracy-mentor/SKILL.md",
+      "url": "content/agents/skills/simulation-accuracy-mentor/skill.html"
+    },
+    {
+      "file": ".agents/skills/unity-delivery-mentor/SKILL.md",
+      "url": "content/agents/skills/unity-delivery-mentor/skill.html"
+    },
+    {
+      "file": ".agents/skills/unity-gameplay-dev/SKILL.md",
+      "url": "content/agents/skills/unity-gameplay-dev/skill.html"
+    },
+    {
+      "file": "AGENTS.md",
+      "url": "content/agents.html"
+    },
+    {
+      "file": "README.md",
+      "url": "content/readme.html"
+    },
+    {
+      "file": "docs/archive/README.md",
+      "url": "content/docs/archive/readme.html"
+    },
+    {
+      "file": "docs/archive/issues/kanban-scope-conflicts.md",
+      "url": "content/docs/archive/issues/kanban-scope-conflicts.html"
+    },
+    {
+      "file": "docs/archive/kanban-plan-2026-10-05.md",
+      "url": "content/docs/archive/kanban-plan-2026-10-05.html"
+    },
+    {
+      "file": "docs/archive/source-material/Game Performance Triage  Challenge.md",
+      "url": "content/docs/archive/source-material/game-performance-triage-challenge.html"
+    },
+    {
+      "file": "docs/archive/source-material/Hardware Flatform Feasibility.md",
+      "url": "content/docs/archive/source-material/hardware-flatform-feasibility.html"
+    },
+    {
+      "file": "docs/archive/source-material/Individual Project Systems Feasibility Milestone.md",
+      "url": "content/docs/archive/source-material/individual-project-systems-feasibility-milestone.html"
+    },
+    {
+      "file": "docs/archive/source-material/Operating System and Game Performance Investigation.md",
+      "url": "content/docs/archive/source-material/operating-system-and-game-performance-investigation.html"
+    },
+    {
+      "file": "docs/archive/source-material/Problem Identification and Initial Project Planning.md",
+      "url": "content/docs/archive/source-material/problem-identification-and-initial-project-planning.html"
+    },
+    {
+      "file": "docs/archive/source-material/proposal.md",
+      "url": "content/docs/archive/source-material/proposal.html"
+    },
+    {
+      "file": "docs/design/app-flow.md",
+      "url": "content/docs/design/app-flow.html"
+    },
+    {
+      "file": "docs/design/database-schema.md",
+      "url": "content/docs/design/database-schema.html"
+    },
+    {
+      "file": "docs/design/design-brief.md",
+      "url": "content/docs/design/design-brief.html"
+    },
+    {
+      "file": "docs/documentation-index.md",
+      "url": "content/docs/documentation-index.html"
+    },
+    {
+      "file": "docs/game-design.md",
+      "url": "content/docs/game-design.html"
+    },
+    {
+      "file": "docs/hardware-validation.md",
+      "url": "content/docs/hardware-validation.html"
+    },
+    {
+      "file": "docs/kanban-plan-draft.md",
+      "url": "content/docs/kanban-plan-draft.html"
+    },
+    {
+      "file": "docs/manuscript-evidence-map.md",
+      "url": "content/docs/manuscript-evidence-map.html"
+    },
+    {
+      "file": "docs/manuscript-working-draft.md",
+      "url": "content/docs/manuscript-working-draft.html"
+    },
+    {
+      "file": "docs/media/gdd/README.md",
+      "url": "content/docs/media/gdd/readme.html"
+    },
+    {
+      "file": "docs/mentors.md",
+      "url": "content/docs/mentors.html"
+    },
+    {
+      "file": "docs/offline-data-plan.md",
+      "url": "content/docs/offline-data-plan.html"
+    },
+    {
+      "file": "docs/planning/agent-task-packets.md",
+      "url": "content/docs/planning/agent-task-packets.html"
+    },
+    {
+      "file": "docs/planning/documentation-verification.md",
+      "url": "content/docs/planning/documentation-verification.html"
+    },
+    {
+      "file": "docs/planning/implementation-plan.md",
+      "url": "content/docs/planning/implementation-plan.html"
+    },
+    {
+      "file": "docs/project-baseline.md",
+      "url": "content/docs/project-baseline.html"
+    },
+    {
+      "file": "docs/qa-evaluation.md",
+      "url": "content/docs/qa-evaluation.html"
+    },
+    {
+      "file": "docs/requirements/product-requirements.md",
+      "url": "content/docs/requirements/product-requirements.html"
+    },
+    {
+      "file": "docs/requirements/technical-requirements.md",
+      "url": "content/docs/requirements/technical-requirements.html"
+    },
+    {
+      "file": "docs/team-delegation.md",
+      "url": "content/docs/team-delegation.html"
+    },
+    {
+      "file": "docs/technical-design.md",
+      "url": "content/docs/technical-design.html"
+    },
+    {
+      "file": "docs/user-guide.md",
+      "url": "content/docs/user-guide.html"
+    },
+    {
+      "file": "tools/docs-viewer/README.md",
+      "url": "content/tools/docs-viewer/readme.html"
+    },
+    {
+      "file": "tools/kanban-sync/README.md",
+      "url": "content/tools/kanban-sync/readme.html"
+    }
+  ]
+}

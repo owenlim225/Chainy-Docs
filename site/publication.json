@@ -1,6 +1,6 @@
 {
-  "revision": "af11d22cf6494c6ba9a08ac5315a9333ee0f5953",
-  "builtAt": "2026-10-07T23:23:24.658Z",
+  "revision": "9c1477bc2370910c50376f395c99cdbeefc974fb",
+  "builtAt": "2026-10-07T23:30:42.674Z",
   "documents": [
     {
       "file": ".agents/skills/android-game-performance/SKILL.md",
@@ -115,6 +115,10 @@
       "url": "content/docs/design/design-brief.html"
     },
     {
+      "file": "docs/design/game-mechanics-reference.md",
+      "url": "content/docs/design/game-mechanics-reference.html"
+    },
+    {
       "file": "docs/documentation-index.md",
       "url": "content/docs/documentation-index.html"
     },
@@ -149,6 +153,10 @@
     {
       "file": "docs/media/gdd/README.md",
       "url": "content/docs/media/gdd/readme.html"
+    },
+    {
+      "file": "docs/media/gdd/presentation/README.md",
+      "url": "content/docs/media/gdd/presentation/readme.html"
     },
     {
       "file": "docs/mentors.md",
@@ -206,6 +214,5 @@
       "file": "tools/kanban-sync/README.md",
       "url": "content/tools/kanban-sync/readme.html"
     }
-  ],
-  "sourceState": "Workspace snapshot including uncommitted documentation and branding updates"
+  ]
 }

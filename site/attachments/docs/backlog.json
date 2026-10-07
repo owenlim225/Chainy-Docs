@@ -1,6 +1,15 @@
 {
   "updated": "2026-10-05",
   "repository": "Kamiyon-Studio/Chainy",
+  "documentationWebsite": {
+    "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/29",
+    "sourceRepository": "Kamiyon-Studio/Chainy",
+    "outputRepository": "owenlim225/Chainy-Docs",
+    "url": "https://owenlim225.github.io/Chainy-Docs/",
+    "scope": "All project Markdown; generated public website, private source",
+    "executionStatus": "See issue 29 for current evidence and deployment status",
+    "countsAsGameDeliveryTask": false
+  },
   "projectUrl": "https://github.com/orgs/Kamiyon-Studio/projects/5",
   "projectStatus": "Verified 26 items; name-based Lead, Support, Reviewer and Deliverable fields populated. Existing statuses preserved.",
   "datePolicy": "Proposed recovery targets; November 21 defense is confirmed; capacity and rubric pending",

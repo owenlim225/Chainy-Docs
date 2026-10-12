@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "repository": "Kamiyon-Studio/Chainy",
   "documentationWebsite": {
     "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/29",
@@ -11,791 +11,512 @@
     "countsAsGameDeliveryTask": false
   },
   "projectUrl": "https://github.com/orgs/Kamiyon-Studio/projects/5",
-  "projectStatus": "October 12 publication snapshot: 26 existing tasks retained; inspected Trello Todo states preserved. Use the live Chainy team board for current status and named history; GitHub receives queued execution copies.",
+  "projectStatus": "Current publication snapshot. The sign-in-protected Chainy team board is the live editing and history source; GitHub receives task execution copies. Evidence text and references not explicitly marked shareable stay on the protected board.",
   "datePolicy": "Working targets except fixed beta November 3–6, 2026 and pre-final November 21, 2026.",
   "tasks": [
     {
-      "id": "CH-01",
-      "title": "Confirm school requirements, hours and devices",
+      "id": "ch-01-01",
+      "title": "Confirm school requirements",
       "start": "2026-10-12",
       "due": "2026-10-13",
-      "blockedBy": [],
-      "requirements": [
-        "TD-R10"
-      ],
-      "description": "Adopted October 12 technical design: Confirm school requirements, hours and devices",
-      "acceptance": "Record the rubric questions, each person's available hours, beta devices and missing evidence.",
       "owner": "Sherwin Limosnero",
-      "support": [
-        "Sean Matthew Narvaez"
-      ],
-      "reviewer": "Sean Matthew Narvaez",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/2",
-      "issueNumber": 2,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPFk",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/2"
     },
     {
-      "id": "CH-02",
-      "title": "Freeze mini-game rules and learning objectives",
+      "id": "ch-01-02",
+      "title": "Check member availability and beta device needs",
       "start": "2026-10-12",
-      "due": "2026-10-14",
-      "blockedBy": [],
-      "requirements": [
-        "TD-R03–06"
-      ],
-      "description": "Adopted October 12 technical design: Freeze mini-game rules and learning objectives",
-      "acceptance": "One short rules/content sheet for Quiz, Wordle and BlockMatch; answer examples and end/retry rules approved.",
+      "due": "2026-10-13",
       "owner": "Sherwin Limosnero",
-      "support": [
-        "Sean Matthew Narvaez",
-        "Miguel De Leon",
-        "Luis Cabrido III"
-      ],
-      "reviewer": "Christian Jude Villaber",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/3",
-      "issueNumber": 3,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPFs",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/30"
     },
     {
-      "id": "CH-03",
-      "title": "Confirm game source and install the current Android build",
+      "id": "ch-02-01",
+      "title": "Agree the three mini-game rules and learning goals",
       "start": "2026-10-12",
       "due": "2026-10-14",
-      "blockedBy": [],
-      "requirements": [
-        "TD-R01"
-      ],
-      "description": "Adopted October 12 technical design: Confirm game source and install the current Android build",
-      "acceptance": "Source/revision and build steps recorded; APK opens offline on a named device.",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/3"
+    },
+    {
+      "id": "ch-02-02",
+      "title": "Check the agreed rules against the game design",
+      "start": "2026-10-12",
+      "due": "2026-10-14",
       "owner": "Christian Jude Villaber",
-      "support": [
-        "Miguel De Leon"
-      ],
-      "reviewer": "Sherwin Limosnero",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/4",
-      "issueNumber": 4,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPF4",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/31"
     },
     {
-      "id": "CH-04",
-      "title": "Complete profile, SQLite and save/reload operations",
+      "id": "ch-02-03",
+      "title": "Write the approved rules sheet",
+      "start": "2026-10-12",
+      "due": "2026-10-14",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/32"
+    },
+    {
+      "id": "ch-03-01",
+      "title": "Confirm the actual game source and build details",
+      "start": "2026-10-12",
+      "due": "2026-10-14",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/4"
+    },
+    {
+      "id": "ch-03-02",
+      "title": "Install and open the current Android build offline",
+      "start": "2026-10-12",
+      "due": "2026-10-14",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/33"
+    },
+    {
+      "id": "ch-04-01",
+      "title": "Confirm local profile and SQLite result fields",
       "start": "2026-10-15",
       "due": "2026-10-16",
-      "blockedBy": [
-        "CH-02",
-        "CH-03"
-      ],
-      "requirements": [
-        "TD-R07"
-      ],
-      "description": "Adopted October 12 technical design: Complete profile, SQLite and save/reload operations",
-      "acceptance": "Actual schema and result meanings agreed; two profiles remain separate; save/reload and failed-save retry verified.",
       "owner": "Christian Jude Villaber",
-      "support": [
-        "Sherwin Limosnero",
-        "Miguel De Leon",
-        "Sean Matthew Narvaez"
-      ],
-      "reviewer": "Sherwin Limosnero",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/5",
-      "issueNumber": 5,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGA",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/5"
     },
     {
-      "id": "CH-05",
-      "title": "Connect exploration, dialogue and scene transitions",
+      "id": "ch-04-02",
+      "title": "Complete and verify local save and reload",
+      "start": "2026-10-15",
+      "due": "2026-10-16",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/34"
+    },
+    {
+      "id": "ch-05-01",
+      "title": "Write the approved level dialogue",
       "start": "2026-10-17",
       "due": "2026-10-17",
-      "blockedBy": [
-        "CH-02",
-        "CH-03",
-        "CH-26"
-      ],
-      "requirements": [
-        "TD-R02"
-      ],
-      "description": "Adopted October 12 technical design: Connect exploration, dialogue and scene transitions",
-      "acceptance": "Existing player controller tested; a compact level opens one mode, handles pause/back and recovers from load failure.",
-      "owner": "Christian Jude Villaber",
-      "support": [
-        "Luis Cabrido III",
-        "Miguel De Leon"
-      ],
-      "reviewer": "Sherwin Limosnero",
+      "owner": "Sean Matthew Narvaez",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/6",
-      "issueNumber": 6,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGI",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/6"
     },
     {
-      "id": "CH-06",
-      "title": "Finish one complete Quiz and saved-result loop",
+      "id": "ch-05-02",
+      "title": "Connect exploration, dialogue and mode transitions",
+      "start": "2026-10-17",
+      "due": "2026-10-17",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/35"
+    },
+    {
+      "id": "ch-06-01",
+      "title": "Implement the approved Quiz rules and scoring",
       "start": "2026-10-18",
       "due": "2026-10-18",
-      "blockedBy": [
-        "CH-04",
-        "CH-05"
-      ],
-      "requirements": [
-        "TD-R03",
-        "TD-R07"
-      ],
-      "description": "Adopted October 12 technical design: Finish one complete Quiz and saved-result loop",
-      "acceptance": "Agreed Quiz answers and score work; finish, save, relaunch and reload the correct result on a phone.",
       "owner": "Christian Jude Villaber",
-      "support": [
-        "Sherwin Limosnero",
-        "Sean Matthew Narvaez",
-        "Miguel De Leon"
-      ],
-      "reviewer": "Sherwin Limosnero",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/7",
-      "issueNumber": 7,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGM",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/7"
     },
     {
-      "id": "CH-07",
-      "title": "Build and integrate BlockMatch",
+      "id": "ch-06-02",
+      "title": "Verify the full Quiz save-and-reload loop",
+      "start": "2026-10-18",
+      "due": "2026-10-18",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/36"
+    },
+    {
+      "id": "ch-07-01",
+      "title": "Implement BlockMatch matching and objective",
       "start": "2026-10-19",
       "due": "2026-10-25",
-      "blockedBy": [
-        "CH-06"
-      ],
-      "requirements": [
-        "TD-R05"
-      ],
-      "description": "Adopted October 12 technical design: Build and integrate BlockMatch",
-      "acceptance": "Matches, cascades, objectives, no-move/end rules and result saving pass agreed examples.",
       "owner": "Christian Jude Villaber",
-      "support": [
-        "Sherwin Limosnero",
-        "Sean Matthew Narvaez",
-        "Luis Cabrido III"
-      ],
-      "reviewer": "Sean Matthew Narvaez",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/8",
-      "issueNumber": 8,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGQ",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/8"
     },
     {
-      "id": "CH-08",
-      "title": "Build Wordle against the shared game/save interface",
+      "id": "ch-07-02",
+      "title": "Complete BlockMatch endings and saved results",
+      "start": "2026-10-19",
+      "due": "2026-10-25",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/37"
+    },
+    {
+      "id": "ch-08-01",
+      "title": "Implement Wordle word checks and feedback",
       "start": "2026-10-17",
       "due": "2026-10-22",
-      "blockedBy": [
-        "CH-02",
-        "CH-03",
-        "CH-04"
-      ],
-      "requirements": [
-        "TD-R04"
-      ],
-      "description": "Adopted October 12 technical design: Build Wordle against the shared game/save interface",
-      "acceptance": "Dictionary/input, repeated-letter feedback, win/loss, retry and saved results pass agreed examples.",
-      "owner": "Sherwin Limosnero",
-      "support": [
-        "Christian Jude Villaber",
-        "Sean Matthew Narvaez"
-      ],
-      "reviewer": "Christian Jude Villaber",
+      "owner": "Christian Jude Villaber",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/9",
-      "issueNumber": 9,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGU",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/9"
     },
     {
-      "id": "CH-09",
-      "title": "Package approved learning content for all three modes",
+      "id": "ch-08-02",
+      "title": "Build the Wordle screen and touch controls",
+      "start": "2026-10-17",
+      "due": "2026-10-22",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/38"
+    },
+    {
+      "id": "ch-08-03",
+      "title": "Connect Wordle outcomes to local saving",
+      "start": "2026-10-17",
+      "due": "2026-10-22",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/39"
+    },
+    {
+      "id": "ch-09-01",
+      "title": "Choose the concepts taught by each mini-game",
       "start": "2026-10-21",
       "due": "2026-10-25",
-      "blockedBy": [
-        "CH-02",
-        "CH-06"
-      ],
-      "requirements": [
-        "TD-R06"
-      ],
-      "description": "Adopted October 12 technical design: Package approved learning content for all three modes",
-      "acceptance": "Versioned topic/content list covers agreed Web3, Blockchain and AI foundations; keys/instructions reviewed; mode integration checked during CH-13.",
       "owner": "Sherwin Limosnero",
-      "support": [
-        "Sean Matthew Narvaez",
-        "Miguel De Leon",
-        "Luis Cabrido III"
-      ],
-      "reviewer": "Sean Matthew Narvaez",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/10",
-      "issueNumber": 10,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGY",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/10"
     },
     {
-      "id": "CH-10",
-      "title": "Deliver the reusable 3D art and interface asset kit",
+      "id": "ch-09-02",
+      "title": "Write questions, clues and instructions for all modes",
+      "start": "2026-10-21",
+      "due": "2026-10-25",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/40"
+    },
+    {
+      "id": "ch-10-01",
+      "title": "Create the approved character and level art",
       "start": "2026-10-15",
       "due": "2026-10-25",
-      "blockedBy": [
-        "CH-02",
-        "CH-03"
-      ],
-      "requirements": [
-        "TD-R02",
-        "TD-R06"
-      ],
-      "description": "Adopted October 12 technical design: Deliver the reusable 3D art and interface asset kit",
-      "acceptance": "Approved asset list, reusable models/icons and source/license notes delivered; readability/import reviewed.",
       "owner": "Luis Cabrido III",
-      "support": [
-        "Miguel De Leon"
-      ],
-      "reviewer": "Sherwin Limosnero",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/11",
-      "issueNumber": 11,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGc",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/11"
     },
     {
-      "id": "CH-11",
-      "title": "Implement and check the agreed teacher collection method",
+      "id": "ch-10-02",
+      "title": "Create the mini-game art assets",
+      "start": "2026-10-15",
+      "due": "2026-10-25",
+      "owner": "Luis Cabrido III",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/41"
+    },
+    {
+      "id": "ch-11-01",
+      "title": "Agree the smallest approved teacher collection need",
       "start": "2026-10-23",
       "due": "2026-10-25",
-      "blockedBy": [
-        "CH-04",
-        "CH-12"
-      ],
-      "requirements": [
-        "TD-R08"
-      ],
-      "description": "Adopted October 12 technical design: Implement and check the agreed teacher collection method",
-      "acceptance": "Approved records export offline; failed export retains data; repeated collection does not inflate totals.",
       "owner": "Sherwin Limosnero",
-      "support": [
-        "Christian Jude Villaber",
-        "Sean Matthew Narvaez",
-        "Miguel De Leon"
-      ],
-      "reviewer": "Christian Jude Villaber",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/12",
-      "issueNumber": 12,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGg",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/12"
     },
     {
-      "id": "CH-12",
-      "title": "Finalize the beta protocol and evidence handling",
+      "id": "ch-11-02",
+      "title": "Implement offline export and safe retry",
+      "start": "2026-10-23",
+      "due": "2026-10-25",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/42"
+    },
+    {
+      "id": "ch-11-03",
+      "title": "Write teacher export and transfer instructions",
+      "start": "2026-10-23",
+      "due": "2026-10-25",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/43"
+    },
+    {
+      "id": "ch-12-01",
+      "title": "Draft the beta session and evidence protocol",
       "start": "2026-10-18",
       "due": "2026-10-20",
-      "blockedBy": [
-        "CH-01",
-        "CH-02",
-        "CH-23",
-        "CH-24"
-      ],
-      "requirements": [
-        "TD-R08",
-        "TD-R10"
-      ],
-      "description": "Adopted October 12 technical design: Finalize the beta protocol and evidence handling",
-      "acceptance": "Required permissions, instruments, custodian, collection fields and session procedure are recorded; actual missing approvals remain blockers.",
       "owner": "Sean Matthew Narvaez",
-      "support": [
-        "Sherwin Limosnero"
-      ],
-      "reviewer": "Sherwin Limosnero",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/13",
-      "issueNumber": 13,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGo",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/13"
     },
     {
-      "id": "CH-13",
-      "title": "Integrate all three modes and freeze beta features",
+      "id": "ch-12-02",
+      "title": "Finalize protocol from actual school approvals",
+      "start": "2026-10-18",
+      "due": "2026-10-20",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/44"
+    },
+    {
+      "id": "ch-13-01",
+      "title": "Integrate the three modes, level, content and local data",
       "start": "2026-10-26",
       "due": "2026-10-30",
-      "blockedBy": [
-        "CH-07",
-        "CH-08",
-        "CH-09",
-        "CH-10",
-        "CH-11",
-        "CH-26"
-      ],
-      "requirements": [
-        "TD-R01–08"
-      ],
-      "description": "Adopted October 12 technical design: Integrate all three modes and freeze beta features",
-      "acceptance": "Named candidate build includes levels, three modes, approved content, profile/save and collection; no new features after review.",
       "owner": "Christian Jude Villaber",
-      "support": [
-        "Sherwin Limosnero",
-        "Luis Cabrido III",
-        "Miguel De Leon",
-        "Sean Matthew Narvaez"
-      ],
-      "reviewer": "Sherwin Limosnero",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/14",
-      "issueNumber": 14,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGs",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/14"
     },
     {
-      "id": "CH-14",
-      "title": "Verify the beta build and recovery on devices",
+      "id": "ch-13-02",
+      "title": "Approve the beta feature freeze",
+      "start": "2026-10-26",
+      "due": "2026-10-30",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/45"
+    },
+    {
+      "id": "ch-14-01",
+      "title": "Check screen clarity and touch controls on devices",
       "start": "2026-10-31",
       "due": "2026-11-02",
-      "blockedBy": [
-        "CH-13"
-      ],
-      "requirements": [
-        "TD-R01–09"
-      ],
-      "description": "Adopted October 12 technical design: Verify the beta build and recovery on devices",
-      "acceptance": "Recorded mode/offline/save/profile/collection/update checks; core-blocking and data-loss failures resolved.",
       "owner": "Miguel De Leon",
-      "support": [
-        "Christian Jude Villaber",
-        "Luis Cabrido III"
-      ],
-      "reviewer": "Christian Jude Villaber",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/15",
-      "issueNumber": 15,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPGw",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/15"
     },
     {
-      "id": "CH-15",
-      "title": "Run the fixed beta and collect approved evidence",
+      "id": "ch-14-02",
+      "title": "Check offline play, profiles and data recovery",
+      "start": "2026-10-31",
+      "due": "2026-11-02",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/46"
+    },
+    {
+      "id": "ch-15-01",
+      "title": "Coordinate the fixed school beta sessions",
       "start": "2026-11-03",
       "due": "2026-11-06",
-      "blockedBy": [
-        "CH-12",
-        "CH-14"
-      ],
-      "requirements": [
-        "TD-R08",
-        "TD-R10"
-      ],
-      "description": "Adopted October 12 technical design: Run the fixed beta and collect approved evidence",
-      "acceptance": "Actual approved school-session evidence and usable records collected; participant details stay in restricted storage.",
-      "owner": "Sean Matthew Narvaez",
-      "support": [
-        "Sherwin Limosnero",
-        "Miguel De Leon",
-        "Luis Cabrido III",
-        "Christian Jude Villaber"
-      ],
-      "reviewer": "Sherwin Limosnero",
+      "owner": "Sherwin Limosnero",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/16",
-      "issueNumber": 16,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPG0",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/16"
     },
     {
-      "id": "CH-16",
-      "title": "Assemble the complete pre-final manuscript",
+      "id": "ch-15-02",
+      "title": "Run the approved protocol and secure evidence",
+      "start": "2026-11-03",
+      "due": "2026-11-06",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/47"
+    },
+    {
+      "id": "ch-16-01",
+      "title": "Assemble manuscript chapters and appendices",
       "start": "2026-11-14",
       "due": "2026-11-16",
-      "blockedBy": [
-        "CH-22",
-        "CH-23",
-        "CH-25"
-      ],
-      "requirements": [
-        "TD-R10"
-      ],
-      "description": "Adopted October 12 technical design: Assemble the complete pre-final manuscript",
-      "acceptance": "Chapters, references, front matter and required appendices match actual build/results and school format.",
       "owner": "Sean Matthew Narvaez",
-      "support": [
-        "Miguel De Leon"
-      ],
-      "reviewer": "Sherwin Limosnero",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/17",
-      "issueNumber": 17,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPG8",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/17"
     },
     {
-      "id": "CH-17",
-      "title": "Rehearse and package the pre-final demonstration",
+      "id": "ch-16-02",
+      "title": "Check manuscript against the build and results",
+      "start": "2026-11-14",
+      "due": "2026-11-16",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/48"
+    },
+    {
+      "id": "ch-17-01",
+      "title": "Coordinate and run the defense rehearsal",
       "start": "2026-11-17",
       "due": "2026-11-20",
-      "blockedBy": [
-        "CH-14",
-        "CH-15",
-        "CH-16"
-      ],
-      "requirements": [
-        "TD-R10"
-      ],
-      "description": "Adopted October 12 technical design: Rehearse and package the pre-final demonstration",
-      "acceptance": "Offline rehearsal completed; build, backup/recovery plan, manuscript and known limitations ready for November 21.",
       "owner": "Sherwin Limosnero",
-      "support": [
-        "Christian Jude Villaber",
-        "Sean Matthew Narvaez",
-        "Luis Cabrido III",
-        "Miguel De Leon"
-      ],
-      "reviewer": "Sean Matthew Narvaez",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/18",
-      "issueNumber": 18,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHI",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/18"
     },
     {
-      "id": "CH-18",
-      "title": "Record pre-final feedback and revise the remaining plan",
+      "id": "ch-17-02",
+      "title": "Prepare the defense run sheet and handout",
+      "start": "2026-11-17",
+      "due": "2026-11-20",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/49"
+    },
+    {
+      "id": "ch-18-01",
+      "title": "Prioritize actual panel feedback into board actions",
       "start": "2026-11-22",
       "due": "2026-11-27",
-      "blockedBy": [
-        "CH-17"
-      ],
-      "requirements": [
-        "TD-R10"
-      ],
-      "description": "Adopted October 12 technical design: Record pre-final feedback and revise the remaining plan",
-      "acceptance": "Actual November 21 panel feedback is converted to agreed actions, owners and dates.",
       "owner": "Sherwin Limosnero",
-      "support": [
-        "Sean Matthew Narvaez"
-      ],
-      "reviewer": "Sean Matthew Narvaez",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/19",
-      "issueNumber": 19,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHM",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/19"
     },
     {
-      "id": "CH-19",
-      "title": "Complete remaining approved evaluation and QA",
+      "id": "ch-18-02",
+      "title": "Write the pre-final feedback record",
+      "start": "2026-11-22",
+      "due": "2026-11-27",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/50"
+    },
+    {
+      "id": "ch-19-01",
+      "title": "Complete approved remaining evaluation and evidence",
       "start": "2026-11-28",
       "due": "2026-12-18",
-      "blockedBy": [
-        "CH-18",
-        "CH-12"
-      ],
-      "requirements": [
-        "TD-R08",
-        "TD-R10"
-      ],
-      "description": "Adopted October 12 technical design: Complete remaining approved evaluation and QA",
-      "acceptance": "Remaining approved evidence and tests completed against panel/adviser requirements.",
       "owner": "Sean Matthew Narvaez",
-      "support": [
-        "Miguel De Leon",
-        "Christian Jude Villaber"
-      ],
-      "reviewer": "Sherwin Limosnero",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/20",
-      "issueNumber": 20,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHU",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/20"
     },
     {
-      "id": "CH-20",
-      "title": "Prepare the final release and manuscript package",
+      "id": "ch-19-02",
+      "title": "Run technical regression checks",
+      "start": "2026-11-28",
+      "due": "2026-12-18",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/51"
+    },
+    {
+      "id": "ch-19-03",
+      "title": "Review learner-screen usability findings",
+      "start": "2026-11-28",
+      "due": "2026-12-18",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/52"
+    },
+    {
+      "id": "ch-20-01",
+      "title": "Prepare a reproducible final Android release",
       "start": "2026-12-19",
       "due": "2027-02-08",
-      "blockedBy": [
-        "CH-19"
-      ],
-      "requirements": [
-        "TD-R09",
-        "TD-R10"
-      ],
-      "description": "Adopted October 12 technical design: Prepare the final release and manuscript package",
-      "acceptance": "Reproducible release, tested data/update procedure, manuals, licenses and manuscript assembled.",
       "owner": "Christian Jude Villaber",
-      "support": [
-        "Sean Matthew Narvaez",
-        "Luis Cabrido III",
-        "Miguel De Leon"
-      ],
-      "reviewer": "Sherwin Limosnero",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/21",
-      "issueNumber": 21,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHY",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/21"
     },
     {
-      "id": "CH-21",
-      "title": "Complete final defense and handover",
+      "id": "ch-20-02",
+      "title": "Assemble final manuals and manuscript package",
+      "start": "2026-12-19",
+      "due": "2027-02-08",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/53"
+    },
+    {
+      "id": "ch-21-01",
+      "title": "Coordinate final defense and custodian handover",
       "start": "2027-02-09",
       "due": "2027-04-09",
-      "blockedBy": [
-        "CH-20"
-      ],
-      "requirements": [
-        "TD-R10"
-      ],
-      "description": "Adopted October 12 technical design: Complete final defense and handover",
-      "acceptance": "Final defense outcome, ownership/custodian handoff and delivery record completed on the school-confirmed schedule.",
       "owner": "Sherwin Limosnero",
-      "support": [
-        "Christian Jude Villaber",
-        "Sean Matthew Narvaez",
-        "Luis Cabrido III",
-        "Miguel De Leon"
-      ],
-      "reviewer": "Sean Matthew Narvaez",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/22",
-      "issueNumber": 22,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHc",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/22"
     },
     {
-      "id": "CH-22",
-      "title": "Revise Chapters I–II for the adopted game",
+      "id": "ch-21-02",
+      "title": "Prepare final handover record and checklist",
+      "start": "2027-02-09",
+      "due": "2027-04-09",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/54"
+    },
+    {
+      "id": "ch-22-01",
+      "title": "Revise Chapter I for the adopted game",
       "start": "2026-10-12",
       "due": "2026-10-14",
-      "blockedBy": [],
-      "requirements": [
-        "TD-R10"
-      ],
-      "description": "Adopted October 12 technical design: Revise Chapters I–II for the adopted game",
-      "acceptance": "Purpose/scope and verified literature reflect Quiz, Wordle and BlockMatch; no old implementation claims remain.",
       "owner": "Sean Matthew Narvaez",
-      "support": [
-        "Miguel De Leon"
-      ],
-      "reviewer": "Sherwin Limosnero",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/24",
-      "issueNumber": 24,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHg",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/24"
     },
     {
-      "id": "CH-23",
-      "title": "Complete Chapter III and the evaluation instruments",
+      "id": "ch-22-02",
+      "title": "Revise Chapter II and references",
+      "start": "2026-10-12",
+      "due": "2026-10-14",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/55"
+    },
+    {
+      "id": "ch-23-01",
+      "title": "Complete methods and current system description",
       "start": "2026-10-15",
       "due": "2026-10-17",
-      "blockedBy": [
-        "CH-01",
-        "CH-02"
-      ],
-      "requirements": [
-        "TD-R10"
-      ],
-      "description": "Adopted October 12 technical design: Complete Chapter III and the evaluation instruments",
-      "acceptance": "Methods, current diagrams, prototype description and school-reviewed instruments are ready; unknowns explicit.",
       "owner": "Sean Matthew Narvaez",
-      "support": [
-        "Christian Jude Villaber",
-        "Miguel De Leon"
-      ],
-      "reviewer": "Sherwin Limosnero",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/25",
-      "issueNumber": 25,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHk",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/25"
     },
     {
-      "id": "CH-24",
-      "title": "Confirm fixed beta logistics and required site documents",
+      "id": "ch-23-02",
+      "title": "Prepare school-review evaluation instruments",
+      "start": "2026-10-15",
+      "due": "2026-10-17",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/56"
+    },
+    {
+      "id": "ch-24-01",
+      "title": "Confirm fixed beta site logistics and open requirements",
       "start": "2026-10-12",
       "due": "2026-10-14",
-      "blockedBy": [],
-      "requirements": [
-        "TD-R10"
-      ],
-      "description": "Adopted October 12 technical design: Confirm fixed beta logistics and required site documents",
-      "acceptance": "November 3–6 site contact, devices, travel/session arrangements and required letters/MOU/permissions are recorded.",
       "owner": "Sherwin Limosnero",
-      "support": [
-        "Sean Matthew Narvaez"
-      ],
-      "reviewer": "Sean Matthew Narvaez",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/26",
-      "issueNumber": 26,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHo",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/26"
     },
     {
-      "id": "CH-25",
-      "title": "Analyze real beta results and write Chapters IV–V",
+      "id": "ch-24-02",
+      "title": "Prepare required site letters and permissions",
+      "start": "2026-10-12",
+      "due": "2026-10-14",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/57"
+    },
+    {
+      "id": "ch-25-01",
+      "title": "Analyze actual beta evidence and prepare result tables",
       "start": "2026-11-07",
       "due": "2026-11-13",
-      "blockedBy": [
-        "CH-15",
-        "CH-23"
-      ],
-      "requirements": [
-        "TD-R10"
-      ],
-      "description": "Adopted October 12 technical design: Analyze real beta results and write Chapters IV–V",
-      "acceptance": "Actual results, justified conclusions, tables and required appendices assembled; missing evidence disclosed.",
       "owner": "Sean Matthew Narvaez",
-      "support": [
-        "Miguel De Leon",
-        "Christian Jude Villaber"
-      ],
-      "reviewer": "Sherwin Limosnero",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/27",
-      "issueNumber": 27,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPHs",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/27"
     },
     {
-      "id": "CH-26",
-      "title": "Implement the shared learner and teacher screens",
+      "id": "ch-25-02",
+      "title": "Write Chapters IV–V from verified results",
+      "start": "2026-11-07",
+      "due": "2026-11-13",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/58"
+    },
+    {
+      "id": "ch-26-01",
+      "title": "Implement learner profile, menu and instruction screens",
       "start": "2026-10-15",
       "due": "2026-10-16",
-      "blockedBy": [
-        "CH-02",
-        "CH-03"
-      ],
-      "requirements": [
-        "TD-R06",
-        "TD-R07",
-        "TD-R08"
-      ],
-      "description": "Adopted October 12 technical design: Implement the shared learner and teacher screens",
-      "acceptance": "Profile/menu/instructions/results/pause/save-error and collection screen structure works with agreed interfaces; final wiring checked in CH-13.",
       "owner": "Miguel De Leon",
-      "support": [
-        "Luis Cabrido III",
-        "Christian Jude Villaber"
-      ],
-      "reviewer": "Sherwin Limosnero",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/28",
-      "issueNumber": 28,
-      "projectItemId": "PVTI_lADOCyt3fs4BltkUzg-gPH0",
-      "ownerStatus": "Assigned by name. Individual team-board account; no GitHub identity required.",
-      "boardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/28"
+    },
+    {
+      "id": "ch-26-02",
+      "title": "Implement result, pause, save-error and collection screens",
+      "start": "2026-10-15",
+      "due": "2026-10-16",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/59"
     }
-  ],
-  "milestones": [
-    {
-      "title": "Android and SQLite foundation",
-      "number": 1,
-      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/1",
-      "target": "2026-10-16"
-    },
-    {
-      "title": "Complete Quiz and saved-result loop",
-      "number": 2,
-      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/2",
-      "target": "2026-10-18"
-    },
-    {
-      "title": "Three modes and approved content",
-      "number": 3,
-      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/3",
-      "target": "2026-10-25"
-    },
-    {
-      "title": "Integrated beta candidate",
-      "number": 4,
-      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/4",
-      "target": "2026-10-30"
-    },
-    {
-      "title": "Beta results and fixes",
-      "number": 5,
-      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/5",
-      "target": "2026-11-13"
-    },
-    {
-      "title": "Pre-final defense",
-      "number": 6,
-      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/6",
-      "target": "2026-11-21"
-    },
-    {
-      "title": "Post-defense revisions",
-      "number": 7,
-      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/7",
-      "target": "2026-11-27"
-    },
-    {
-      "title": "Evaluation completion",
-      "number": 8,
-      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/8",
-      "target": "2026-12-18"
-    },
-    {
-      "title": "Final package",
-      "number": 9,
-      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/9",
-      "target": "2027-02-08"
-    },
-    {
-      "title": "Final defense and handover",
-      "number": 10,
-      "url": "https://github.com/Kamiyon-Studio/Chainy/milestone/10",
-      "target": "2027-04-09"
-    }
-  ],
-  "gameRepositoryUrl": "https://github.com/Kamiyon-Studio/Chainy-Game",
-  "publicationStatus": "October 12 adopted documentation and team-board cutover. Existing 26 task issue identities retained; current task state is in the live board and its GitHub issue copies.",
-  "projectId": "PVT_kwDOCyt3fs4BltkU",
-  "projectNumber": 5,
-  "assignmentPolicy": "Named Lead, Support and Reviewer fields; all five members use individual team-board accounts. No GitHub identities are invented.",
-  "estimatePolicy": "Task dates are planning targets, not measured effort. Confirm availability on the first requirements/capacity task. Fixed beta November 3–6 and pre-final November 21, 2026.",
-  "integrationStatus": "Chainy team board replaces Trello. Five individual accounts, shared task storage and named history; queued GitHub issue copies. Earlier Project fields and Trello token-renewal notes are historical.",
-  "documentationRevision": {
-    "date": "2026-10-12",
-    "source": "Christian Jude Villaber technical design",
-    "scope": "Quiz, Wordle, BlockMatch and explorable levels; replaces prior generated mechanics",
-    "publication": "Adopted task inventory; later board edits remain in the live service and GitHub execution records"
-  },
-  "teamBoardUrl": "https://owenlim225.github.io/Chainy-Docs/board/"
+  ]
 }

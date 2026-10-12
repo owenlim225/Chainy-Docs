@@ -1,6 +1,6 @@
 {
-  "revision": "4c2b8c07110a4bd9bc40e2456c0c1e48f86fa04f",
-  "builtAt": "2026-10-07T23:41:11.497Z",
+  "revision": "1a0864cc5184769f3bf3f88bd8cba43eb22ccbda",
+  "builtAt": "2026-10-12T13:56:26.361Z",
   "documents": [
     {
       "file": ".agents/skills/android-game-performance/SKILL.md",
@@ -63,6 +63,14 @@
       "url": "content/agents.html"
     },
     {
+      "file": "DESIGN.md",
+      "url": "content/design.html"
+    },
+    {
+      "file": "PRODUCT.md",
+      "url": "content/product.html"
+    },
+    {
       "file": "README.md",
       "url": "content/readme.html"
     },
@@ -77,6 +85,102 @@
     {
       "file": "docs/archive/kanban-plan-2026-10-05.md",
       "url": "content/docs/archive/kanban-plan-2026-10-05.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/README.md",
+      "url": "content/docs/archive/pre-2026-10-12/readme.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/README.snapshot.md",
+      "url": "content/docs/archive/pre-2026-10-12/readmesnapshot.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/design/app-flow.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/design/app-flow.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/design/database-schema.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/design/database-schema.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/design/design-brief.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/design/design-brief.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/design/game-mechanics-reference.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/design/game-mechanics-reference.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/design/local-schema.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/design/local-schema.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/documentation-index.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/documentation-index.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/game-design.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/game-design.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/hardware-validation.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/hardware-validation.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/kanban-plan-draft.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/kanban-plan-draft.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/learning-foundations.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/learning-foundations.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/manuscript-evidence-map.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/manuscript-evidence-map.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/manuscript-working-draft.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/manuscript-working-draft.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/offline-data-plan.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/offline-data-plan.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/planning/agent-task-packets.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/planning/agent-task-packets.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/planning/implementation-plan.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/planning/implementation-plan.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/project-baseline.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/project-baseline.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/qa-evaluation.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/qa-evaluation.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/requirements/product-requirements.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/requirements/product-requirements.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/requirements/technical-requirements.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/requirements/technical-requirements.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/team-delegation.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/team-delegation.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/technical-design.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/technical-design.html"
+    },
+    {
+      "file": "docs/archive/pre-2026-10-12/docs/user-guide.md",
+      "url": "content/docs/archive/pre-2026-10-12/docs/user-guide.html"
     },
     {
       "file": "docs/archive/source-material/Game Performance Triage  Challenge.md",
@@ -101,6 +205,10 @@
     {
       "file": "docs/archive/source-material/proposal.md",
       "url": "content/docs/archive/source-material/proposal.html"
+    },
+    {
+      "file": "docs/archive/source-material/technical-design-christian-2026-10-12.md",
+      "url": "content/docs/archive/source-material/technical-design-christian-2026-10-12.html"
     },
     {
       "file": "docs/design/app-flow.md",
@@ -195,6 +303,10 @@
       "url": "content/docs/requirements/technical-requirements.html"
     },
     {
+      "file": "docs/team-board-guide.md",
+      "url": "content/docs/team-board-guide.html"
+    },
+    {
       "file": "docs/team-delegation.md",
       "url": "content/docs/team-delegation.html"
     },
@@ -213,6 +325,10 @@
     {
       "file": "tools/kanban-sync/README.md",
       "url": "content/tools/kanban-sync/readme.html"
+    },
+    {
+      "file": "tools/team-board/direction.md",
+      "url": "content/tools/team-board/direction.html"
     }
   ]
 }

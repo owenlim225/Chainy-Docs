@@ -67,9 +67,13 @@ function render() {
   if (!state || draggingTimeline) return;
   const tasks = currentTasks(), active = state.tasks.filter(t => !t.deleted);
   $('#summary').textContent = `${active.length} tasks · ${active.filter(t => t.status === 'In Progress').length} in progress · ${active.filter(t => t.status === 'Done').length} done`;
-  $('#filters').hidden = view === 'history'; $('#period-label').hidden = view !== 'timeline';
+  $('#filters').hidden = view === 'history' || view === 'files'; $('#period-label').hidden = view !== 'timeline';
+  $('#project-files').hidden = view !== 'files';
+  $('#view-help').hidden = view === 'files';
+  $('#content').hidden = view === 'files';
   $('.tabs').querySelectorAll('button').forEach(b => b.dataset.view === view ? b.setAttribute('aria-current', 'page') : b.removeAttribute('aria-current'));
-  $('#view-help').textContent = ({ board: 'Drag a card to move or reorder it. Open a card to edit details, dates or status.', timeline: 'Drag a bar to shift dates. Drag either edge to resize. Open a task to enter exact dates.', history: 'Who changed what, where and when. Times are shown in Manila time.', trash: 'Archived tasks stay here with their history. Open one to restore it.' })[view];
+  $('#view-help').textContent = ({ board: 'Drag a card to move or reorder it. Open a card to edit details, dates or status.', timeline: 'Drag a bar to shift dates. Drag either edge to resize. Open a task to enter exact dates.', history: 'Who changed what, where and when. Times are shown in Manila time.', trash: 'Archived tasks stay here with their history. Open one to restore it.' })[view] || '';
+  if (view === 'files') return;
   if (view === 'history') { renderHistory(); return; }
   if (view === 'timeline') { renderTimeline(tasks); return; }
   $('#content').replaceChildren();

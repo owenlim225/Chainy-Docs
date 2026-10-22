@@ -1,6 +1,6 @@
 {
-  "revision": "e9b68d29f3bf9e85f4ad792e4d58fddd8d8b3721",
-  "builtAt": "2026-10-16T19:32:28.779Z",
+  "revision": "8363294756098b56a7f50462faebca3674924b7d",
+  "builtAt": "2026-10-22T10:47:27.903Z",
   "documents": [
     {
       "file": ".agents/skills/android-game-performance/SKILL.md",
@@ -233,6 +233,10 @@
     {
       "file": "docs/game-design.md",
       "url": "content/docs/game-design.html"
+    },
+    {
+      "file": "docs/gdd-template-editions.md",
+      "url": "content/docs/gdd-template-editions.html"
     },
     {
       "file": "docs/hardware-validation.md",

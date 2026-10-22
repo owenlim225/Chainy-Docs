@@ -1,6 +1,6 @@
 {
-  "revision": "cd5faf64c5a79e1201da398bebd16abef46133cd",
-  "builtAt": "2026-10-22T10:49:23.186Z",
+  "revision": "04bffa536dd91fe00dbf94463e94ab805b8139e4",
+  "builtAt": "2026-10-22T11:09:40.769Z",
   "documents": [
     {
       "file": ".agents/skills/android-game-performance/SKILL.md",
@@ -265,6 +265,10 @@
     {
       "file": "docs/media/gdd/README.md",
       "url": "content/docs/media/gdd/readme.html"
+    },
+    {
+      "file": "docs/media/gdd/current-visuals/README.md",
+      "url": "content/docs/media/gdd/current-visuals/readme.html"
     },
     {
       "file": "docs/media/gdd/presentation/README.md",

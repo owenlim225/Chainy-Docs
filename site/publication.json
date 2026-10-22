@@ -1,6 +1,6 @@
 {
-  "revision": "04bffa536dd91fe00dbf94463e94ab805b8139e4",
-  "builtAt": "2026-10-22T11:09:40.769Z",
+  "revision": "a231fbdb31297ce71e37c25f9340000fe8dc18c6",
+  "builtAt": "2026-10-22T14:49:08.514Z",
   "documents": [
     {
       "file": ".agents/skills/android-game-performance/SKILL.md",
@@ -231,6 +231,10 @@
       "url": "content/docs/documentation-index.html"
     },
     {
+      "file": "docs/game-design-v2-gameplay-first.md",
+      "url": "content/docs/game-design-v2-gameplay-first.html"
+    },
+    {
       "file": "docs/game-design.md",
       "url": "content/docs/game-design.html"
     },
@@ -269,6 +273,26 @@
     {
       "file": "docs/media/gdd/current-visuals/README.md",
       "url": "content/docs/media/gdd/current-visuals/readme.html"
+    },
+    {
+      "file": "docs/media/gdd/gameplay-first/README.md",
+      "url": "content/docs/media/gdd/gameplay-first/readme.html"
+    },
+    {
+      "file": "docs/media/gdd/gameplay-first/notes/visual-ai-notes.md",
+      "url": "content/docs/media/gdd/gameplay-first/notes/visual-ai-notes.html"
+    },
+    {
+      "file": "docs/media/gdd/gameplay-first/notes/visual-blockchain-notes.md",
+      "url": "content/docs/media/gdd/gameplay-first/notes/visual-blockchain-notes.html"
+    },
+    {
+      "file": "docs/media/gdd/gameplay-first/notes/visual-characters-notes.md",
+      "url": "content/docs/media/gdd/gameplay-first/notes/visual-characters-notes.html"
+    },
+    {
+      "file": "docs/media/gdd/gameplay-first/notes/visual-web3-notes.md",
+      "url": "content/docs/media/gdd/gameplay-first/notes/visual-web3-notes.html"
     },
     {
       "file": "docs/media/gdd/presentation/README.md",

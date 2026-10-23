@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-23",
   "repository": "Kamiyon-Studio/Chainy",
   "documentationWebsite": {
     "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/29",
@@ -12,187 +12,25 @@
   },
   "projectUrl": "https://github.com/orgs/Kamiyon-Studio/projects/5",
   "projectStatus": "Current publication snapshot. The sign-in-protected Chainy team board is the live editing and history source; GitHub receives task execution copies. Evidence text and references not explicitly marked shareable stay on the protected board.",
-  "datePolicy": "Working targets except fixed beta November 3–6, 2026 and pre-final November 21, 2026.",
+  "datePolicy": "Cryptita Plays community beta testing November 10, 2026; pre-final November 21. Other dates are planning targets; deferred November 22–December 18 windows are provisional.",
   "tasks": [
-    {
-      "id": "ch-01-01",
-      "title": "Confirm school requirements",
-      "start": "2026-10-12",
-      "due": "2026-10-13",
-      "owner": "Sherwin Limosnero",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/2"
-    },
     {
       "id": "ch-01-02",
       "title": "Check member availability and beta device needs",
       "start": "2026-10-12",
       "due": "2026-10-13",
       "owner": "Sherwin Limosnero",
-      "status": "Todo",
+      "status": "Done",
       "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/30"
     },
     {
-      "id": "ch-02-01",
-      "title": "Agree the three mini-game rules and learning goals",
-      "start": "2026-10-12",
-      "due": "2026-10-14",
-      "owner": "Sherwin Limosnero",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/3"
-    },
-    {
-      "id": "ch-02-02",
-      "title": "Check the agreed rules against the game design",
-      "start": "2026-10-12",
-      "due": "2026-10-14",
-      "owner": "Christian Jude Villaber",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/31"
-    },
-    {
-      "id": "ch-02-03",
-      "title": "Write the approved rules sheet",
-      "start": "2026-10-12",
-      "due": "2026-10-14",
-      "owner": "Sean Matthew Narvaez",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/32"
-    },
-    {
-      "id": "ch-03-01",
-      "title": "Confirm the actual game source and build details",
-      "start": "2026-10-12",
-      "due": "2026-10-14",
-      "owner": "Christian Jude Villaber",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/4"
-    },
-    {
-      "id": "ch-03-02",
-      "title": "Install and open the current Android build offline",
-      "start": "2026-10-12",
-      "due": "2026-10-14",
-      "owner": "Christian Jude Villaber",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/33"
-    },
-    {
-      "id": "ch-04-01",
-      "title": "Confirm local profile and SQLite result fields",
+      "id": "585cc673-f2f8-4aa7-b703-5f7809683519",
+      "title": "Create the main character 3D model",
       "start": "2026-10-15",
-      "due": "2026-10-16",
-      "owner": "Christian Jude Villaber",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/5"
-    },
-    {
-      "id": "ch-04-02",
-      "title": "Complete and verify local save and reload",
-      "start": "2026-10-15",
-      "due": "2026-10-16",
-      "owner": "Christian Jude Villaber",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/34"
-    },
-    {
-      "id": "ch-05-01",
-      "title": "Write the approved level dialogue",
-      "start": "2026-10-17",
-      "due": "2026-10-17",
-      "owner": "Sean Matthew Narvaez",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/6"
-    },
-    {
-      "id": "ch-05-02",
-      "title": "Connect exploration, dialogue and mode transitions",
-      "start": "2026-10-17",
-      "due": "2026-10-17",
-      "owner": "Christian Jude Villaber",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/35"
-    },
-    {
-      "id": "ch-06-01",
-      "title": "Implement the approved Quiz rules and scoring",
-      "start": "2026-10-18",
-      "due": "2026-10-18",
-      "owner": "Christian Jude Villaber",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/7"
-    },
-    {
-      "id": "ch-06-02",
-      "title": "Verify the full Quiz save-and-reload loop",
-      "start": "2026-10-18",
-      "due": "2026-10-18",
-      "owner": "Christian Jude Villaber",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/36"
-    },
-    {
-      "id": "ch-07-01",
-      "title": "Implement BlockMatch matching and objective",
-      "start": "2026-10-19",
-      "due": "2026-10-25",
-      "owner": "Christian Jude Villaber",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/8"
-    },
-    {
-      "id": "ch-07-02",
-      "title": "Complete BlockMatch endings and saved results",
-      "start": "2026-10-19",
-      "due": "2026-10-25",
-      "owner": "Christian Jude Villaber",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/37"
-    },
-    {
-      "id": "ch-08-01",
-      "title": "Implement Wordle word checks and feedback",
-      "start": "2026-10-17",
-      "due": "2026-10-22",
-      "owner": "Christian Jude Villaber",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/9"
-    },
-    {
-      "id": "ch-08-02",
-      "title": "Build the Wordle screen and touch controls",
-      "start": "2026-10-17",
-      "due": "2026-10-22",
-      "owner": "Miguel De Leon",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/38"
-    },
-    {
-      "id": "ch-08-03",
-      "title": "Connect Wordle outcomes to local saving",
-      "start": "2026-10-17",
-      "due": "2026-10-22",
-      "owner": "Christian Jude Villaber",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/39"
-    },
-    {
-      "id": "ch-09-01",
-      "title": "Choose the concepts taught by each mini-game",
-      "start": "2026-10-21",
-      "due": "2026-10-25",
-      "owner": "Sherwin Limosnero",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/10"
-    },
-    {
-      "id": "ch-09-02",
-      "title": "Write questions, clues and instructions for all modes",
-      "start": "2026-10-21",
-      "due": "2026-10-25",
-      "owner": "Sean Matthew Narvaez",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/40"
+      "due": "2026-10-15",
+      "owner": "Luis Cabrido III",
+      "status": "Done",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/61"
     },
     {
       "id": "ch-10-01",
@@ -200,86 +38,653 @@
       "start": "2026-10-15",
       "due": "2026-10-25",
       "owner": "Luis Cabrido III",
-      "status": "Todo",
+      "status": "In Progress",
       "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/11"
     },
     {
-      "id": "ch-10-02",
-      "title": "Create the mini-game art assets",
-      "start": "2026-10-15",
+      "id": "5407856a-2f40-40df-ab2b-7f176d081ebc",
+      "title": "Interact icon",
+      "start": "2026-10-17",
+      "due": "2026-10-17",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/106"
+    },
+    {
+      "id": "8d6bd2f9-1e18-4b11-9107-fec921b1c10f",
+      "title": "NPC follow player's direction",
+      "start": "2026-10-17",
+      "due": "2026-10-18",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/107"
+    },
+    {
+      "id": "ch-09-01",
+      "title": "Choose the concepts taught by each mini-game",
+      "start": "2026-10-21",
       "due": "2026-10-25",
+      "owner": "Sherwin Limosnero",
+      "status": "Done",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/10"
+    },
+    {
+      "id": "3fba11b4-ff49-4e76-8943-1c3c1e2fc697",
+      "title": "Approve W03 price, fee and later contract explanation",
+      "start": "2026-10-23",
+      "due": "2026-10-24",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/102"
+    },
+    {
+      "id": "577ecac2-78e2-4891-8438-6c2df86f3317",
+      "title": "Prepare the art sample and Unity handoff standard",
+      "start": "2026-10-23",
+      "due": "2026-10-24",
       "owner": "Luis Cabrido III",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/41"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/60"
+    },
+    {
+      "id": "67398367-97d1-494c-9054-80ff47ecaeec",
+      "title": "Align the adopted v2 quest and concept map",
+      "start": "2026-10-23",
+      "due": "2026-10-24",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/95"
+    },
+    {
+      "id": "6dbaf836-7086-475e-a964-adf6be9c6958",
+      "title": "Approve W02 fictional reward and value explanation",
+      "start": "2026-10-23",
+      "due": "2026-10-24",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/98"
+    },
+    {
+      "id": "81a83279-2562-44e9-9f22-d6a0a34c7734",
+      "title": "Verify input manager and event bus behavior",
+      "start": "2026-10-23",
+      "due": "2026-10-24",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/75"
+    },
+    {
+      "id": "a74e9f90-33b7-4535-a8e3-dda0b5ac0212",
+      "title": "Verify technical-design components and implement only confirmed gaps",
+      "start": "2026-10-23",
+      "due": "2026-10-24",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/74"
+    },
+    {
+      "id": "b3b7412c-82c8-4994-acb2-1643fd0efab3",
+      "title": "Approve W01 safety and shareable-address learning",
+      "start": "2026-10-23",
+      "due": "2026-10-24",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/96"
+    },
+    {
+      "id": "ch-01-01",
+      "title": "Confirm school requirements",
+      "start": "2026-10-23",
+      "due": "2026-10-30",
+      "owner": "Sean Matthew Narvaez",
+      "status": "In Progress",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/2"
+    },
+    {
+      "id": "ch-02-01",
+      "title": "Confirm v2 core quest and economy rules",
+      "start": "2026-10-23",
+      "due": "2026-10-24",
+      "owner": "Sherwin Limosnero",
+      "status": "In Progress",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/3"
+    },
+    {
+      "id": "ch-02-02",
+      "title": "Check the agreed rules against the game design",
+      "start": "2026-10-23",
+      "due": "2026-10-24",
+      "owner": "Christian Jude Villaber",
+      "status": "In Progress",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/31"
+    },
+    {
+      "id": "ch-03-01",
+      "title": "Confirm the actual game source and build details",
+      "start": "2026-10-23",
+      "due": "2026-10-24",
+      "owner": "Christian Jude Villaber",
+      "status": "In Progress",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/4"
+    },
+    {
+      "id": "ch-03-02",
+      "title": "Install and open the current Android build offline",
+      "start": "2026-10-23",
+      "due": "2026-10-24",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/33"
+    },
+    {
+      "id": "ch-04-01",
+      "title": "Confirm local profile and SQLite result fields",
+      "start": "2026-10-23",
+      "due": "2026-10-24",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/5"
     },
     {
       "id": "ch-11-01",
-      "title": "Agree the smallest approved teacher collection need",
+      "title": "Confirm minimal community beta evidence needs",
       "start": "2026-10-23",
-      "due": "2026-10-25",
-      "owner": "Sherwin Limosnero",
+      "due": "2026-10-30",
+      "owner": "Sean Matthew Narvaez",
       "status": "Todo",
       "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/12"
     },
     {
-      "id": "ch-11-02",
-      "title": "Implement offline export and safe retry",
-      "start": "2026-10-23",
-      "due": "2026-10-25",
-      "owner": "Christian Jude Villaber",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/42"
-    },
-    {
-      "id": "ch-11-03",
-      "title": "Write teacher export and transfer instructions",
-      "start": "2026-10-23",
-      "due": "2026-10-25",
-      "owner": "Sean Matthew Narvaez",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/43"
-    },
-    {
       "id": "ch-12-01",
       "title": "Draft the beta session and evidence protocol",
-      "start": "2026-10-18",
-      "due": "2026-10-20",
+      "start": "2026-10-23",
+      "due": "2026-10-30",
       "owner": "Sean Matthew Narvaez",
       "status": "Todo",
       "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/13"
     },
     {
-      "id": "ch-12-02",
-      "title": "Finalize protocol from actual school approvals",
-      "start": "2026-10-18",
-      "due": "2026-10-20",
+      "id": "ch-22-01",
+      "title": "Revise Chapter I for the adopted game",
+      "start": "2026-10-23",
+      "due": "2026-10-26",
       "owner": "Sean Matthew Narvaez",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/44"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/24"
+    },
+    {
+      "id": "ch-22-02",
+      "title": "Revise Chapter II and references",
+      "start": "2026-10-23",
+      "due": "2026-10-29",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/55"
+    },
+    {
+      "id": "ch-24-01",
+      "title": "Confirm Cryptita Plays beta arrangements and devices",
+      "start": "2026-10-23",
+      "due": "2026-11-06",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/26"
+    },
+    {
+      "id": "ch-24-02",
+      "title": "Prepare community beta permissions and school evidence requests",
+      "start": "2026-10-23",
+      "due": "2026-11-06",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/57"
+    },
+    {
+      "id": "0c48b5d0-3fb4-4db0-8f5c-b786d71bbc5d",
+      "title": "Verify object pooling lifecycle and reset behavior",
+      "start": "2026-10-24",
+      "due": "2026-10-26",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/78"
+    },
+    {
+      "id": "17b130e4-da48-47c4-aac2-31af43baf9d0",
+      "title": "Reconcile packaged learning content and SQLite boundary",
+      "start": "2026-10-24",
+      "due": "2026-10-26",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/82"
+    },
+    {
+      "id": "28903b85-6b33-4f9d-bfa3-3fc43b464d69",
+      "title": "Approve W04 ownership, equip and later exchange boundary",
+      "start": "2026-10-24",
+      "due": "2026-10-25",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/103"
+    },
+    {
+      "id": "6f724b49-fc5a-430f-b1d1-08d80c273232",
+      "title": "Build the compact Web3 island environment kit",
+      "start": "2026-10-24",
+      "due": "2026-10-27",
+      "owner": "Luis Cabrido III",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/65"
+    },
+    {
+      "id": "76196abc-98cf-46c0-9d32-308b71f90c05",
+      "title": "Build pause, back and resume UI",
+      "start": "2026-10-24",
+      "due": "2026-10-26",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/90"
+    },
+    {
+      "id": "76ac4752-e5f3-4cbe-a1e1-e81002a6a357",
+      "title": "Approve B01–B03 trusted-record repair reasoning",
+      "start": "2026-10-24",
+      "due": "2026-10-25",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/99"
+    },
+    {
+      "id": "8384d970-719d-4cff-ad0a-e8e054cff087",
+      "title": "Verify game manager session and single-mode lifecycle",
+      "start": "2026-10-24",
+      "due": "2026-10-25",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/76"
+    },
+    {
+      "id": "96f6067f-182a-46d0-935c-ba9b48d3341b",
+      "title": "Verify progress manager and storage request boundary",
+      "start": "2026-10-24",
+      "due": "2026-10-27",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/84"
+    },
+    {
+      "id": "a8a1e1c5-8c86-434a-98ed-9580c5fc09e1",
+      "title": "Build core chapter navigation and instruction UI",
+      "start": "2026-10-24",
+      "due": "2026-10-28",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/86"
+    },
+    {
+      "id": "a98d0fad-0c8e-4cde-b195-daacf1a021d8",
+      "title": "Create Sean’s reusable low-poly Web3 guide variant",
+      "start": "2026-10-24",
+      "due": "2026-10-25",
+      "owner": "Luis Cabrido III",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/62"
+    },
+    {
+      "id": "ch-02-03",
+      "title": "Write the approved rules sheet",
+      "start": "2026-10-24",
+      "due": "2026-10-25",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/32"
+    },
+    {
+      "id": "ch-04-02",
+      "title": "Complete and verify local save and reload",
+      "start": "2026-10-24",
+      "due": "2026-10-28",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/34"
+    },
+    {
+      "id": "ch-05-01",
+      "title": "Write the approved level dialogue",
+      "start": "2026-10-24",
+      "due": "2026-10-26",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/6"
+    },
+    {
+      "id": "ch-05-02",
+      "title": "Connect exploration, quest state and dialogue transitions",
+      "start": "2026-10-24",
+      "due": "2026-10-28",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/35"
+    },
+    {
+      "id": "ch-10-02",
+      "title": "Create the core lantern, wallet and record-repair art",
+      "start": "2026-10-24",
+      "due": "2026-10-28",
+      "owner": "Luis Cabrido III",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/41"
+    },
+    {
+      "id": "ch-23-02",
+      "title": "Prepare school-review evaluation instruments",
+      "start": "2026-10-24",
+      "due": "2026-10-30",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/56"
+    },
+    {
+      "id": "ch-26-01",
+      "title": "Build learner profile and navigation UI",
+      "start": "2026-10-24",
+      "due": "2026-10-26",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/28"
+    },
+    {
+      "id": "d361f33c-d849-4b26-a1b4-2b9ff5e40142",
+      "title": "Verify level manager and scene loading behavior",
+      "start": "2026-10-24",
+      "due": "2026-10-25",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/77"
+    },
+    {
+      "id": "d7d16ff5-3274-4b3e-a0ab-3187c2b4835a",
+      "title": "Verify local SQLite schema, transactions and learner separation",
+      "start": "2026-10-24",
+      "due": "2026-10-28",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/85"
+    },
+    {
+      "id": "dde70c22-a50f-4cf5-9fd5-789e0172d3a5",
+      "title": "Reconcile score ownership and result contract",
+      "start": "2026-10-24",
+      "due": "2026-10-26",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/83"
+    },
+    {
+      "id": "e4f125f6-9e43-49ba-9063-c8e586ed1b61",
+      "title": "Approve wallet safety and W07 recovery boundary",
+      "start": "2026-10-24",
+      "due": "2026-10-25",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/101"
+    },
+    {
+      "id": "fc679459-5435-4008-ab09-fe6e97e7cd99",
+      "title": "Reconcile dialogue manager with interaction flow",
+      "start": "2026-10-24",
+      "due": "2026-10-26",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/81"
+    },
+    {
+      "id": "0c5e7cff-abc7-4d41-af66-02ced5565b71",
+      "title": "Implement W01–W04 wallet, purchase and restoration",
+      "start": "2026-10-25",
+      "due": "2026-10-28",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/108"
+    },
+    {
+      "id": "47d6bfb0-b0f6-429f-a5c9-6444b1e46600",
+      "title": "Build contextual Quiz and dialogue choice UI",
+      "start": "2026-10-25",
+      "due": "2026-10-28",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/87"
+    },
+    {
+      "id": "4b35c6b0-6c81-4f63-a95d-49200b33db85",
+      "title": "Build wallet review, confirmation and inventory UI",
+      "start": "2026-10-25",
+      "due": "2026-10-28",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/110"
+    },
+    {
+      "id": "5e6d7a9f-3871-4449-ba6a-e52c6274b716",
+      "title": "Create the reusable bridge connector asset",
+      "start": "2026-10-25",
+      "due": "2026-10-25",
+      "owner": "Luis Cabrido III",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/68"
+    },
+    {
+      "id": "79deef0c-998e-4a76-9c4a-a25c679ca1a3",
+      "title": "Approve demo completion and full-world unlock boundary",
+      "start": "2026-10-25",
+      "due": "2026-10-26",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/104"
+    },
+    {
+      "id": "8f85c939-ef48-4843-8ca8-d3e9cd634bf9",
+      "title": "Create Matthew’s reusable low-poly Blockchain guide variant",
+      "start": "2026-10-25",
+      "due": "2026-10-26",
+      "owner": "Luis Cabrido III",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/63"
+    },
+    {
+      "id": "cfa7814b-8e82-48ce-bae6-7df81dfd4205",
+      "title": "Verify service locator startup and dependency boundaries",
+      "start": "2026-10-25",
+      "due": "2026-10-26",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/79"
+    },
+    {
+      "id": "ch-06-01",
+      "title": "Implement contextual Quiz feedback for the v2 core",
+      "start": "2026-10-25",
+      "due": "2026-10-28",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/7"
+    },
+    {
+      "id": "ch-09-02",
+      "title": "Write v2 quest log, encyclopedia and core instructions",
+      "start": "2026-10-25",
+      "due": "2026-10-30",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/40"
+    },
+    {
+      "id": "70873fe1-8a10-4a9c-ad71-2e66f16a75e6",
+      "title": "Build save-error and retry UI",
+      "start": "2026-10-26",
+      "due": "2026-10-27",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/91"
+    },
+    {
+      "id": "7fa593e6-78a3-4e0a-8abd-7f96e5b3e558",
+      "title": "Create the reusable beacon asset",
+      "start": "2026-10-26",
+      "due": "2026-10-26",
+      "owner": "Luis Cabrido III",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/69"
+    },
+    {
+      "id": "ch-23-01",
+      "title": "Complete methods and current system description",
+      "start": "2026-10-26",
+      "due": "2026-10-30",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/25"
+    },
+    {
+      "id": "48bd5687-704a-4064-9dd0-c6d95ff51a2a",
+      "title": "Create the blockchain block interactable asset",
+      "start": "2026-10-27",
+      "due": "2026-10-27",
+      "owner": "Luis Cabrido III",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/70"
+    },
+    {
+      "id": "60d934d5-e945-43e6-a124-c29cedc96961",
+      "title": "Build quest log and encyclopedia progress UI",
+      "start": "2026-10-27",
+      "due": "2026-10-30",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/112"
+    },
+    {
+      "id": "7ceb9a7e-7d1d-4feb-9a4e-4008bec57f55",
+      "title": "Build the compact Blockchain island environment kit",
+      "start": "2026-10-27",
+      "due": "2026-10-29",
+      "owner": "Luis Cabrido III",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/66"
+    },
+    {
+      "id": "96c300d8-b9e0-46cd-bc0f-8b2c712affc6",
+      "title": "Verify UI manager event and screen responsibility",
+      "start": "2026-10-27",
+      "due": "2026-10-28",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/80"
+    },
+    {
+      "id": "bbdb8c9f-a2b7-42f1-97a0-b141de55fabd",
+      "title": "Build trusted-checkpoint and record-repair UI",
+      "start": "2026-10-27",
+      "due": "2026-10-30",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/111"
+    },
+    {
+      "id": "ch-06-02",
+      "title": "Verify core quest and contextual Quiz save-and-reload",
+      "start": "2026-10-27",
+      "due": "2026-10-30",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/36"
+    },
+    {
+      "id": "ch-26-02",
+      "title": "Build core chapter completion and revisit UI",
+      "start": "2026-10-27",
+      "due": "2026-10-30",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/59"
+    },
+    {
+      "id": "aa88a91d-0a8c-44b7-86e8-125807dc378e",
+      "title": "Create the cryptocurrency token interactable asset",
+      "start": "2026-10-28",
+      "due": "2026-10-28",
+      "owner": "Luis Cabrido III",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/71"
+    },
+    {
+      "id": "51ca717b-b84f-4c76-8bff-b8efb790934b",
+      "title": "Coordinate beta QA coverage and evidence handoffs",
+      "start": "2026-10-29",
+      "due": "2026-10-30",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/93"
+    },
+    {
+      "id": "ba99d571-3820-4675-a2fd-fa8e53a64b5e",
+      "title": "Decide the A01–A03 AI stretch gate and source handoff",
+      "start": "2026-10-29",
+      "due": "2026-10-30",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/105"
     },
     {
       "id": "ch-13-01",
-      "title": "Integrate the three modes, level, content and local data",
-      "start": "2026-10-26",
-      "due": "2026-10-30",
+      "title": "Integrate the v2 core restoration and record-repair chapter",
+      "start": "2026-10-29",
+      "due": "2026-11-06",
       "owner": "Christian Jude Villaber",
       "status": "Todo",
       "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/14"
     },
     {
-      "id": "ch-13-02",
-      "title": "Approve the beta feature freeze",
-      "start": "2026-10-26",
-      "due": "2026-10-30",
-      "owner": "Sherwin Limosnero",
+      "id": "d4419772-86ad-4f19-ab56-7c2d6cb937e5",
+      "title": "Create the reusable impact visual effect",
+      "start": "2026-10-29",
+      "due": "2026-10-29",
+      "owner": "Luis Cabrido III",
       "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/45"
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/72"
+    },
+    {
+      "id": "e3c04a15-34f6-4f69-bfce-a998954340c1",
+      "title": "Implement B01–B03 and demo B07 record repair",
+      "start": "2026-10-29",
+      "due": "2026-10-30",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/109"
+    },
+    {
+      "id": "ch-12-02",
+      "title": "Finalize beta protocol from actual permissions and adviser answers",
+      "start": "2026-10-30",
+      "due": "2026-11-06",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/44"
+    },
+    {
+      "id": "f30cff02-2757-4bf4-b840-c1662391f3a5",
+      "title": "Create the reusable toon shader effect",
+      "start": "2026-10-30",
+      "due": "2026-10-30",
+      "owner": "Luis Cabrido III",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/73"
     },
     {
       "id": "ch-14-01",
       "title": "Check screen clarity and touch controls on devices",
       "start": "2026-10-31",
-      "due": "2026-11-02",
+      "due": "2026-11-06",
       "owner": "Miguel De Leon",
       "status": "Todo",
       "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/15"
@@ -288,16 +693,34 @@
       "id": "ch-14-02",
       "title": "Check offline play, profiles and data recovery",
       "start": "2026-10-31",
-      "due": "2026-11-02",
+      "due": "2026-11-06",
       "owner": "Christian Jude Villaber",
       "status": "Todo",
       "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/46"
     },
     {
+      "id": "ch-13-02",
+      "title": "Approve the beta feature freeze",
+      "start": "2026-11-06",
+      "due": "2026-11-07",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/45"
+    },
+    {
+      "id": "36000cc8-1c04-45bf-a364-941c4a02c441",
+      "title": "Review QA findings and triage beta blockers",
+      "start": "2026-11-07",
+      "due": "2026-11-09",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/94"
+    },
+    {
       "id": "ch-15-01",
-      "title": "Coordinate the fixed school beta sessions",
-      "start": "2026-11-03",
-      "due": "2026-11-06",
+      "title": "Coordinate Cryptita Plays community beta testing",
+      "start": "2026-11-10",
+      "due": "2026-11-10",
       "owner": "Sherwin Limosnero",
       "status": "Todo",
       "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/16"
@@ -305,11 +728,29 @@
     {
       "id": "ch-15-02",
       "title": "Run the approved protocol and secure evidence",
-      "start": "2026-11-03",
-      "due": "2026-11-06",
+      "start": "2026-11-10",
+      "due": "2026-11-10",
       "owner": "Sean Matthew Narvaez",
       "status": "Todo",
       "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/47"
+    },
+    {
+      "id": "ch-25-01",
+      "title": "Analyze actual beta evidence and prepare result tables",
+      "start": "2026-11-11",
+      "due": "2026-11-12",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/27"
+    },
+    {
+      "id": "ch-25-02",
+      "title": "Write Chapters IV–V from verified results",
+      "start": "2026-11-12",
+      "due": "2026-11-13",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/58"
     },
     {
       "id": "ch-16-01",
@@ -323,8 +764,8 @@
     {
       "id": "ch-16-02",
       "title": "Check manuscript against the build and results",
-      "start": "2026-11-14",
-      "due": "2026-11-16",
+      "start": "2026-11-17",
+      "due": "2026-11-20",
       "owner": "Sean Matthew Narvaez",
       "status": "Todo",
       "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/48"
@@ -348,6 +789,96 @@
       "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/49"
     },
     {
+      "id": "a879430d-019e-44c3-988d-4da8edc42b6b",
+      "title": "[FULL] Approve B04–B06 node and validator lessons",
+      "start": "2026-11-22",
+      "due": "2026-12-18",
+      "owner": "Sherwin Limosnero",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/100"
+    },
+    {
+      "id": "af461414-4075-4097-bd48-0592fc44977e",
+      "title": "[FULL] Build standalone mini-game result and replay UI",
+      "start": "2026-11-22",
+      "due": "2026-12-18",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/89"
+    },
+    {
+      "id": "b544495e-aa1d-4caa-80d9-8ad76f5e6927",
+      "title": "[STRETCH] Build the compact AI assistance-center kit",
+      "start": "2026-11-22",
+      "due": "2026-12-18",
+      "owner": "Luis Cabrido III",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/67"
+    },
+    {
+      "id": "ch-07-01",
+      "title": "[FULL] Implement BlockMatch matching and objective",
+      "start": "2026-11-22",
+      "due": "2026-12-18",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/8"
+    },
+    {
+      "id": "ch-07-02",
+      "title": "[FULL] Complete BlockMatch endings and saved results",
+      "start": "2026-11-22",
+      "due": "2026-12-18",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/37"
+    },
+    {
+      "id": "ch-08-01",
+      "title": "[FULL] Implement Wordle word checks and feedback",
+      "start": "2026-11-22",
+      "due": "2026-12-18",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/9"
+    },
+    {
+      "id": "ch-08-02",
+      "title": "[FULL] Build the Wordle screen and touch controls",
+      "start": "2026-11-22",
+      "due": "2026-12-18",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/38"
+    },
+    {
+      "id": "ch-08-03",
+      "title": "[FULL] Connect Wordle outcomes to local saving",
+      "start": "2026-11-22",
+      "due": "2026-12-18",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/39"
+    },
+    {
+      "id": "ch-11-02",
+      "title": "[LATER SERVICE] Implement offline export and safe retry",
+      "start": "2026-11-22",
+      "due": "2026-12-18",
+      "owner": "Christian Jude Villaber",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/42"
+    },
+    {
+      "id": "ch-11-03",
+      "title": "[LATER SERVICE] Write teacher export and transfer instructions",
+      "start": "2026-11-22",
+      "due": "2026-12-18",
+      "owner": "Sean Matthew Narvaez",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/43"
+    },
+    {
       "id": "ch-18-01",
       "title": "Prioritize actual panel feedback into board actions",
       "start": "2026-11-22",
@@ -364,6 +895,33 @@
       "owner": "Sean Matthew Narvaez",
       "status": "Todo",
       "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/50"
+    },
+    {
+      "id": "d19f0abb-a005-4329-8185-fe3399e095e5",
+      "title": "[STRETCH] Create Lee’s reusable AI guide variant",
+      "start": "2026-11-22",
+      "due": "2026-12-18",
+      "owner": "Luis Cabrido III",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/64"
+    },
+    {
+      "id": "e20ee95c-7037-4b5f-873e-0a69077a8802",
+      "title": "[FULL] Build the BlockMatch screen and touch controls",
+      "start": "2026-11-22",
+      "due": "2026-12-18",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/88"
+    },
+    {
+      "id": "e894c58b-fc30-4ad1-ae84-93aaff9fcf94",
+      "title": "[LATER SERVICE] Build teacher collection and export UI",
+      "start": "2026-11-22",
+      "due": "2026-12-18",
+      "owner": "Miguel De Leon",
+      "status": "Todo",
+      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/92"
     },
     {
       "id": "ch-19-01",
@@ -427,96 +985,7 @@
       "owner": "Sean Matthew Narvaez",
       "status": "Todo",
       "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/54"
-    },
-    {
-      "id": "ch-22-01",
-      "title": "Revise Chapter I for the adopted game",
-      "start": "2026-10-12",
-      "due": "2026-10-14",
-      "owner": "Sean Matthew Narvaez",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/24"
-    },
-    {
-      "id": "ch-22-02",
-      "title": "Revise Chapter II and references",
-      "start": "2026-10-12",
-      "due": "2026-10-14",
-      "owner": "Sean Matthew Narvaez",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/55"
-    },
-    {
-      "id": "ch-23-01",
-      "title": "Complete methods and current system description",
-      "start": "2026-10-15",
-      "due": "2026-10-17",
-      "owner": "Sean Matthew Narvaez",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/25"
-    },
-    {
-      "id": "ch-23-02",
-      "title": "Prepare school-review evaluation instruments",
-      "start": "2026-10-15",
-      "due": "2026-10-17",
-      "owner": "Sean Matthew Narvaez",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/56"
-    },
-    {
-      "id": "ch-24-01",
-      "title": "Confirm fixed beta site logistics and open requirements",
-      "start": "2026-10-12",
-      "due": "2026-10-14",
-      "owner": "Sherwin Limosnero",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/26"
-    },
-    {
-      "id": "ch-24-02",
-      "title": "Prepare required site letters and permissions",
-      "start": "2026-10-12",
-      "due": "2026-10-14",
-      "owner": "Sean Matthew Narvaez",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/57"
-    },
-    {
-      "id": "ch-25-01",
-      "title": "Analyze actual beta evidence and prepare result tables",
-      "start": "2026-11-07",
-      "due": "2026-11-13",
-      "owner": "Sean Matthew Narvaez",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/27"
-    },
-    {
-      "id": "ch-25-02",
-      "title": "Write Chapters IV–V from verified results",
-      "start": "2026-11-07",
-      "due": "2026-11-13",
-      "owner": "Sean Matthew Narvaez",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/58"
-    },
-    {
-      "id": "ch-26-01",
-      "title": "Implement learner profile, menu and instruction screens",
-      "start": "2026-10-15",
-      "due": "2026-10-16",
-      "owner": "Miguel De Leon",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/28"
-    },
-    {
-      "id": "ch-26-02",
-      "title": "Implement result, pause, save-error and collection screens",
-      "start": "2026-10-15",
-      "due": "2026-10-16",
-      "owner": "Miguel De Leon",
-      "status": "Todo",
-      "issueUrl": "https://github.com/Kamiyon-Studio/Chainy/issues/59"
     }
-  ]
+  ],
+  "boardRevision": 973
 }

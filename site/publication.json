@@ -1,6 +1,6 @@
 {
-  "revision": "a231fbdb31297ce71e37c25f9340000fe8dc18c6",
-  "builtAt": "2026-10-22T14:49:08.514Z",
+  "revision": "9c48539f0cbbf6efba71f786e272559513b09486",
+  "builtAt": "2026-10-23T08:52:03.745Z",
   "documents": [
     {
       "file": ".agents/skills/android-game-performance/SKILL.md",
@@ -183,6 +183,110 @@
       "url": "content/docs/archive/pre-2026-10-12/docs/user-guide.html"
     },
     {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/PRODUCT.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/product.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/README.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/readme.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/README.snapshot.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/readmesnapshot.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/design/app-flow.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/design/app-flow.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/design/database-schema.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/design/database-schema.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/design/design-brief.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/design/design-brief.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/documentation-index.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/documentation-index.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/game-design-v2-gameplay-first.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/game-design-v2-gameplay-first.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/game-design.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/game-design.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/gdd-template-editions.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/gdd-template-editions.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/hardware-validation.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/hardware-validation.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/kanban-plan-draft.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/kanban-plan-draft.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/learning-foundations.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/learning-foundations.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/manuscript-evidence-map.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/manuscript-evidence-map.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/manuscript-working-draft.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/manuscript-working-draft.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/offline-data-plan.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/offline-data-plan.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/planning/agentic-parallel-execution-plan.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/planning/agentic-parallel-execution-plan.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/planning/implementation-plan.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/planning/implementation-plan.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/planning/quest-curriculum.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/planning/quest-curriculum.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/project-baseline.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/project-baseline.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/qa-evaluation.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/qa-evaluation.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/requirements/product-requirements.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/requirements/product-requirements.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/requirements/technical-requirements.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/requirements/technical-requirements.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/team-delegation.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/team-delegation.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/technical-design.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/technical-design.html"
+    },
+    {
+      "file": "docs/archive/pre-v2-adoption-2026-10-23/docs/user-guide.md",
+      "url": "content/docs/archive/pre-v2-adoption-2026-10-23/docs/user-guide.html"
+    },
+    {
       "file": "docs/archive/source-material/Game Performance Triage  Challenge.md",
       "url": "content/docs/archive/source-material/game-performance-triage-challenge.html"
     },
@@ -201,6 +305,10 @@
     {
       "file": "docs/archive/source-material/Problem Identification and Initial Project Planning.md",
       "url": "content/docs/archive/source-material/problem-identification-and-initial-project-planning.html"
+    },
+    {
+      "file": "docs/archive/source-material/Web3-Young-Learners-Encyclopedia-A-Z-Contents.md",
+      "url": "content/docs/archive/source-material/web3-young-learners-encyclopedia-a-z-contents.html"
     },
     {
       "file": "docs/archive/source-material/proposal.md",
@@ -321,6 +429,10 @@
     {
       "file": "docs/planning/implementation-plan.md",
       "url": "content/docs/planning/implementation-plan.html"
+    },
+    {
+      "file": "docs/planning/quest-curriculum.md",
+      "url": "content/docs/planning/quest-curriculum.html"
     },
     {
       "file": "docs/project-baseline.md",

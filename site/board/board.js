@@ -1,3 +1,5 @@
+import { todayInManila, isOverdue } from './deadline.mjs';
+
 const API = ['127.0.0.1', 'localhost'].includes(location.hostname) ? 'http://127.0.0.1:8787' : 'https://chainy-kanban-sync.hainy.workers.dev';
 const $ = s => document.querySelector(s);
 const DAY = 86400000;
@@ -10,6 +12,7 @@ const initials = name => name.split(' ').map(n => n[0]).slice(0, 2).join('');
 const displayTitle = title => String(title || '').replace(/\bCH-\d{2,}(?:\.[A-Za-z0-9-]+)?\b\s*[:–—-]?\s*/g, '').trim();
 let token = sessionStorage.getItem('chainy-session'), me = null, state = null, view = 'board', selected = null, etag = null, saving = false, toastTimer, historyNext = null, taskHistoryNext = null;
 let dragging = null, draggingTimeline = false, taskHistoryRequest = 0;
+let renderedDay = null;
 function el(tag, props = {}, ...children) {
   const node = document.createElement(tag);
   for (const [key, value] of Object.entries(props)) {
@@ -65,6 +68,7 @@ function dependencyWarnings(task) {
 }
 function render() {
   if (!state || draggingTimeline) return;
+  const today = todayInManila(); renderedDay = today;
   const tasks = currentTasks(), active = state.tasks.filter(t => !t.deleted);
   $('#summary').textContent = `${active.length} tasks · ${active.filter(t => t.status === 'In Progress').length} in progress · ${active.filter(t => t.status === 'Done').length} done`;
   $('#filters').hidden = view === 'history' || view === 'files'; $('#period-label').hidden = view !== 'timeline';
@@ -75,15 +79,15 @@ function render() {
   $('#view-help').textContent = ({ board: 'Drag a card to move or reorder it. Open a card to edit details, dates or status.', timeline: 'Drag a bar to shift dates. Drag either edge to resize. Open a task to enter exact dates.', history: 'Who changed what, where and when. Times are shown in Manila time.', trash: 'Archived tasks stay here with their history. Open one to restore it.' })[view] || '';
   if (view === 'files') return;
   if (view === 'history') { renderHistory(); return; }
-  if (view === 'timeline') { renderTimeline(tasks); return; }
+  if (view === 'timeline') { renderTimeline(tasks, today); return; }
   $('#content').replaceChildren();
-  if (view === 'trash') { $('#content').append(tasks.length ? el('div', { class: 'trash-list' }, tasks.map(card)) : empty('Archive is empty', 'Archived cards can be restored here.')); return; }
+  if (view === 'trash') { $('#content').append(tasks.length ? el('div', { class: 'trash-list' }, tasks.map(t => card(t, today))) : empty('Archive is empty', 'Archived cards can be restored here.')); return; }
   const board = el('div', { class: 'board' });
   for (const status of STATUS) {
     const cards = tasks.filter(t => t.status === status);
     const column = el('section', { class: 'column', 'data-status': status, 'aria-label': labelStatus(status) });
     column.append(el('div', { class: 'column-heading' }, el('span', { class: 'dot', 'aria-hidden': 'true' }), el('h2', {}, labelStatus(status)), el('span', { class: 'count' }, cards.length), el('button', { 'aria-label': 'Add task to ' + labelStatus(status), onclick: () => openTask(null, status) }, '+')));
-    column.append(...cards.map(card));
+    column.append(...cards.map(t => card(t, today)));
     if (!cards.length) column.append(el('p', { class: 'column-empty' }, tasks.length ? 'Drop a task here, or add a new one.' : 'No matching tasks. Try another person or search.'));
     column.addEventListener('dragover', e => { if (!dragging) return; e.preventDefault(); e.dataTransfer.dropEffect = 'move'; column.classList.add('drop-target'); document.querySelectorAll('.drop-before').forEach(n => n.classList.remove('drop-before')); const target = e.target.closest('.task-card'); if (target && target.dataset.id !== dragging) target.classList.add('drop-before'); });
     column.addEventListener('dragleave', e => { if (!column.contains(e.relatedTarget)) column.classList.remove('drop-target'); });
@@ -102,10 +106,10 @@ function render() {
   $('#content').append(board);
 }
 function empty(title, message) { return el('div', { class: 'empty' }, el('h2', {}, title), el('p', {}, message)); }
-function card(task) {
-  const lane = laneOf(task);
+function card(task, today) {
+  const lane = laneOf(task), overdue = !task.deleted && isOverdue(task, today);
   const card = el('article', { class: `task-card lane-${lane}`, 'data-id': task.id });
-  const open = el('button', { type: 'button', class: 'task-open', onclick: () => openTask(task), 'aria-label': `Open ${task.title}` }, el('span', { class: 'lane-tag' }, LANE_LABELS[lane]), el('span', { class: 'card-title' }, displayTitle(task.title)), el('span', { class: 'card-description' }, task.description || ''), el('span', { class: 'card-footer' }, person(task.lead), el('span', { class: 'card-date' }, `${shortDate(task.start)} – ${shortDate(task.end)}`), el('span', { class: 'card-open-hint', 'aria-hidden': 'true' }, 'Open card →')));
+  const open = el('button', { type: 'button', class: 'task-open', onclick: () => openTask(task), 'aria-label': `Open ${task.title}${overdue ? `, overdue since ${shortDate(task.end)}` : ''}` }, el('span', { class: 'card-tags' }, el('span', { class: 'lane-tag' }, LANE_LABELS[lane]), overdue ? el('span', { class: 'card-overdue' }, 'Overdue') : null), el('span', { class: 'card-title' }, displayTitle(task.title)), el('span', { class: 'card-description' }, task.description || ''), el('span', { class: 'card-footer' }, person(task.lead), el('span', { class: 'card-date' }, `${shortDate(task.start)} – ${shortDate(task.end)}`), el('span', { class: 'card-open-hint', 'aria-hidden': 'true' }, 'Open card →')));
   const waiting = dependencyWarnings(task).length; if (waiting && task.status !== 'Done') open.append(el('span', { class: 'card-note' }, 'Prerequisites to check'));
   card.append(open);
   if (!task.deleted) {
@@ -116,12 +120,11 @@ function card(task) {
   }
   return card;
 }
-function renderTimeline(tasks) {
+function renderTimeline(tasks, today) {
   const all = $('#period').value === 'all', start = all ? tasks.reduce((d, t) => t.start < d ? t.start : d, '2026-10-12') : '2026-10-12', finish = all ? tasks.reduce((d, t) => t.end > d ? t.end : d, '2027-04-09') : '2026-11-22';
   const count = dayDiff(finish, start) + 1, width = all ? 13 : 30, total = count * width;
   const timeline = el('div', { class: 'timeline' }); timeline.style.setProperty('--day-width', width + 'px');
   const days = el('div', { class: 'timeline-days' });
-  const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Manila', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
   for (let i = 0; i < count; i++) { const d = addDays(start, i), date = new Date(d), weekend = [0, 6].includes(date.getUTCDay()); days.append(el('div', { class: `day${weekend ? ' weekend' : ''}${d === today ? ' today' : ''}`, title: shortDate(d) }, !all || date.getUTCDate() === 1 ? date.toLocaleDateString('en', { month: 'short', timeZone: 'UTC' }) : '', el('span', {}, !all || i % 7 === 0 ? date.getUTCDate() : ''))); }
   timeline.append(el('div', { class: 'timeline-head' }, el('div', { class: 'timeline-label' }, 'Task / work area'), days));
   const events = el('div', { class: 'timeline-track' }); events.style.width = total + 'px';
@@ -131,7 +134,8 @@ function renderTimeline(tasks) {
   visible.forEach(task => {
     const track = el('div', { class: 'timeline-track' }); track.style.width = total + 'px';
     const clippedStart = task.start < start ? start : task.start, clippedEnd = task.end > finish ? finish : task.end;
-    const bar = el('div', { class: `bar lane-${laneOf(task)}${task.status === 'Done' ? ' done' : ''}`, role: 'button', tabindex: '0', 'aria-label': `${task.title}, ${LANE_LABELS[laneOf(task)]}, ${shortDate(task.start)} to ${shortDate(task.end)}. Open to edit dates.`, title: `${shortDate(task.start)} – ${shortDate(task.end)}` }, el('span', { class: 'resize-handle start', 'data-edge': 'start', title: 'Drag to change start' }), el('span', { class: 'bar-label' }, `${shortDate(task.start)} – ${shortDate(task.end)}`), el('span', { class: 'resize-handle end', 'data-edge': 'end', title: 'Drag to change finish' }));
+    const overdue = isOverdue(task, today);
+    const bar = el('div', { class: `bar lane-${laneOf(task)}${task.status === 'Done' ? ' done' : ''}${overdue ? ' overdue' : ''}`, role: 'button', tabindex: '0', 'aria-label': `${task.title}, ${LANE_LABELS[laneOf(task)]}, ${shortDate(task.start)} to ${shortDate(task.end)}. ${overdue ? 'Overdue. ' : ''}Open to edit dates.`, title: `${shortDate(task.start)} – ${shortDate(task.end)}${overdue ? ' · Overdue' : ''}` }, el('span', { class: 'resize-handle start', 'data-edge': 'start', title: 'Drag to change start' }), el('span', { class: 'bar-label' }, `${shortDate(task.start)} – ${shortDate(task.end)}`), el('span', { class: 'resize-handle end', 'data-edge': 'end', title: 'Drag to change finish' }));
     bar.style.left = dayDiff(clippedStart, start) * width + 'px'; bar.style.width = (dayDiff(clippedEnd, clippedStart) + 1) * width + 'px';
     bar.addEventListener('keydown', e => { if (['Enter', ' '].includes(e.key)) { e.preventDefault(); openTask(task); } });
     bar.addEventListener('pointerdown', e => {
@@ -146,11 +150,11 @@ function renderTimeline(tasks) {
       bar.addEventListener('pointermove', move); bar.addEventListener('pointerup', end); bar.addEventListener('pointercancel', cancel);
     });
     track.append(bar);
-    timeline.append(el('div', { class: 'timeline-row' }, el('button', { class: `timeline-label lane-${laneOf(task)}`, onclick: () => openTask(task) }, displayTitle(task.title), person(task.lead)), track));
+    timeline.append(el('div', { class: 'timeline-row' }, el('button', { class: `timeline-label lane-${laneOf(task)}`, onclick: () => openTask(task) }, displayTitle(task.title), person(task.lead), overdue ? el('span', { class: 'timeline-overdue' }, 'Overdue') : null), track));
   });
   const oldScroll = $('.timeline-wrap')?.scrollLeft || 0;
   const wrapper = el('div', { class: 'timeline-wrap', tabindex: '0', 'aria-label': 'Scrollable Gantt timeline' }, timeline);
-  $('#content').replaceChildren(visible.length ? wrapper : empty('No tasks in this time window', 'Try the whole-project schedule or another filter.'), el('p', { class: 'timeline-note' }, `${visible.length} tasks shown. ${all ? 'Whole-project planning dates.' : 'October 12–November 22. Choose Whole project to see later work.'} Colors identify work areas; gray bars are done. Prerequisites are listed inside each task.`));
+  $('#content').replaceChildren(visible.length ? wrapper : empty('No tasks in this time window', 'Try the whole-project schedule or another filter.'), el('p', { class: 'timeline-note' }, `${visible.length} tasks shown. ${all ? 'Whole-project planning dates.' : 'October 12–November 22. Choose Whole project to see later work.'} Colors identify work areas; rose bars are overdue; gray bars are done. Prerequisites are listed inside each task.`));
   wrapper.scrollLeft = oldScroll;
 }
 async function quickSave(task, changes, surface, message) {
@@ -279,6 +283,7 @@ async function refresh(force = false) {
   try {
     const result = await api('/api/board', { headers: force ? {} : etag ? { 'If-None-Match': etag } : {} });
     if (result) { const first = !state; state = result.data; etag = result.response.headers.get('etag'); me = state.user; if (first) fillMembers(); if (view !== 'history' || force || first) render(); }
+    else if (state && todayInManila() !== renderedDay) render();
     $('#connection').classList.remove('offline');
     const failed = state?.sync.some(job => job.attempts > 0); $('#connection').textContent = failed ? 'Board saved · GitHub copy retrying' : state?.sync.length ? 'Shared board saved · GitHub copy pending' : 'Up to date · checks every 10 seconds';
     if (state) { $('#login-screen').hidden = true; $('#app').hidden = false; $('#account').hidden = false; $('#logout').hidden = false; $('#account').textContent = name(me); $('#account').title = 'Change your password'; }
